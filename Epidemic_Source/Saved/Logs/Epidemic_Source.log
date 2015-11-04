@@ -158,4 +158,98 @@
 [2015.11.04-17.00.10:874][654]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
 [2015.11.04-17.00.13:008][733]LogTexture:Display: Building textures: Texture2D_2 (G8)
 [2015.11.04-17.00.15:989][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
-[2015.11.04-1
+[2015.11.04-17.00.31:541][442]LogActorFactory: Actor Factory created Cube
+[2015.11.04-17.00.32:133][462]LogActorFactory: Actor Factory created Cube
+[2015.11.04-17.00.45:504][969]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube3)
+[2015.11.04-17.00.47:638][ 15]LogEditorViewport: Clicking Background
+[2015.11.04-17.09.21:139][804]LogEditorViewport: Clicking Background
+[2015.11.04-17.09.43:485][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.04-17.09.43:925][936]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.11.04-17.09.55:221][639]LogEditorViewport: Clicking Background
+[2015.11.04-17.09.59:802][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2015.11.04-17.10.02:838][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2015.11.04-17.10.06:307][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.11.04-17.10.10:943][307]LogEditorViewport: Clicking Background
+[2015.11.04-17.10.33:303][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.11.04-17.10.33:891][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.11.04-17.10.34:533][494]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube2)
+[2015.11.04-17.10.55:337][266]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2015.11.04-17.10.57:501][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.11.04-17.11.00:340][415]LogVSAccessor:Warning: Couldn't set focus on Visual Studio.
+[2015.11.04-17.11.00:340][415]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2015.11.04-17.11.00:549][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:549][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:549][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:550][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:550][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:550][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:553][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:554][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:554][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:554][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:555][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:555][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:555][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:556][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:556][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:557][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:558][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:558][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:558][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:558][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:559][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:559][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:559][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:560][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:560][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:562][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:562][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:563][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:563][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:564][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:564][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:564][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:565][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:565][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:565][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:566][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:566][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:566][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:567][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:567][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:567][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:567][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:568][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:568][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:582][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:583][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:583][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:584][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:595][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:605][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:625][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:723][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:730][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:731][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:731][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:731][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:732][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:783][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:839][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:844][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:845][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:845][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:845][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:855][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:962][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:962][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.00:963][415]LogVSAccessor:Warning: Couldn't access module table
+[2015.11.04-17.11.48:104][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.04-17.11.53:124][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.11.04-17.12.00:565][463]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.11.04-17.12.02:620][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2015.11.04-17.12.05:974][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.11.04-17.12.19:720][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2015.11.04-17.12.23:202][134]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.11.04-17.12.24:898][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.11.04-17.13.16:524][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
