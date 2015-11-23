@@ -1,0 +1,1066 @@
+﻿[2015.11.22-13.26.57:949][  0]Log file open, 11/22/15 15:26:57
+[2015.11.22-13.26.57:949][  0]LogInit:Display: Running engine for game: Epidemic_Source
+[2015.11.22-13.26.57:949][  0]LogInit:Display: RandInit(-929495798) SRandInit(-929495798).
+[2015.11.22-13.26.57:949][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.22-13.26.57:949][  0]LogStats: Stats thread started at 0.074656
+[2015.11.22-13.26.57:949][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.22-13.26.57:949][  0]LogInit: API Version: 2672455
+[2015.11.22-13.26.57:949][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.22-13.26.57:949][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.22-13.26.57:949][  0]LogInit: Build Configuration: Development
+[2015.11.22-13.26.57:949][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.22-13.26.57:949][  0]LogInit: Command line: 
+[2015.11.22-13.26.57:949][  0]LogInit: Base directory: E:/Programs/EpicGames/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.22-13.26.57:949][  0]LogInit: Rocket: 1
+[2015.11.22-13.26.57:956][  0]LogInit: Using libcurl 7.41.0
+[2015.11.22-13.26.57:956][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.22-13.26.57:956][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.22-13.26.57:956][  0]LogInit:  - other features:
+[2015.11.22-13.26.57:956][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.22-13.26.57:956][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.22-13.26.57:956][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.22-13.26.57:956][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.22-13.26.57:956][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.22-13.26.57:956][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.22-13.26.57:956][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.22-13.26.57:956][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.22-13.26.57:956][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.22-13.26.57:956][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.22-13.26.57:962][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.22-13.26.57:975][  0]LogInit: Object subsystem initialized
+[2015.11.22-13.26.57:977][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.22-13.26.57:977][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.22-13.26.57:988][  0]LogInit: Computer: GRONIA-FERDI
+[2015.11.22-13.26.57:988][  0]LogInit: User: Ferdi
+[2015.11.22-13.26.57:988][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.22-13.26.57:988][  0]LogInit: High frequency timer resolution =3.312802 MHz
+[2015.11.22-13.26.57:988][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.11.22-13.26.57:988][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.22-13.26.57:988][  0]LogMemory: Process Physical Memory: 54.63 MB used, 54.63 MB peak
+[2015.11.22-13.26.57:988][  0]LogMemory: Process Virtual Memory: 55.53 MB used, 55.53 MB peak
+[2015.11.22-13.26.57:988][  0]LogMemory: Physical Memory: 3588.29 MB used, 8174.70 MB total
+[2015.11.22-13.26.57:988][  0]LogMemory: Virtual Memory: 365.46 MB used, 134217728.00 MB total
+[2015.11.22-13.26.58:023][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.22-13.26.58:805][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.11.22-13.26.58:805][  0]LogD3D11RHI: Adapter has 3050MB of dedicated video memory, 0MB of dedicated system memory, and 4087MB of shared system memory, 3 output[s]
+[2015.11.22-13.26.58:806][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.22-13.26.58:806][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4087MB of shared system memory, 0 output[s]
+[2015.11.22-13.26.58:806][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.22-13.26.58:810][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.22-13.26.58:810][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.22-13.26.58:818][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.11.22-13.26.58:829][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/EpidemicGameProject/Epidemic_Source/Intermediate/Shaders/WorkingDirectory/10440/).
+[2015.11.22-13.26.58:830][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/EpidemicGameProject/Epidemic_Source/Intermediate/Shaders/tmp/F752D8A2454BD263A0985DBECC9C26A3/'.
+[2015.11.22-13.26.58:830][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.22-13.26.59:945][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.22-13.26.59:950][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.22-13.26.59:954][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.22-13.26.59:959][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.22-13.26.59:963][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.22-13.26.59:967][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.22-13.26.59:970][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.22-13.26.59:973][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.22-13.26.59:976][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.22-13.26.59:979][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.22-13.26.59:982][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.22-13.26.59:986][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.22-13.26.59:986][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.22-13.27.00:003][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.22-13.27.00:006][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.22-13.27.00:009][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.22-13.27.00:013][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.22-13.27.00:013][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.22-13.27.00:081][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.22-13.27.00:147][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Ferdi/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.22-13.27.00:147][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ferdi/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.22-13.27.00:148][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/EpidemicGameProject/Epidemic_Source/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.22-13.27.00:148][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.22-13.27.00:148][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/EpidemicGameProject/Epidemic_Source/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.22-13.27.00:148][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.22-13.27.00:296][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.22-13.27.00:308][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ferdi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.22-13.27.00:498][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.22-13.27.00:500][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.22-13.27.00:620][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.22-13.27.00:620][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.22-13.27.01:036][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.22-13.27.03:011][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.22-13.27.03:131][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.11.22-13.27.03:481][  0]SourceControl: Info Source control is disabled
+[2015.11.22-13.27.03:490][  0]SourceControl: Info Source control is disabled
+[2015.11.22-13.27.03:498][  0]SourceControl: Info Source control is disabled
+[2015.11.22-13.27.03:507][  0]SourceControl: Info Source control is disabled
+[2015.11.22-13.27.03:660][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.22-13.27.03:727][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.22-13.27.03:727][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.11.22-13.27.03:789][  0]LogEngine: Initializing Engine...
+[2015.11.22-13.27.03:792][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.22-13.27.03:792][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.22-13.27.03:991][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.22-13.27.03:997][  0]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.22-13.27.04:004][  0]LogInit: FAudioDevice initialized.
+[2015.11.22-13.27.04:023][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Ferdi/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.22-13.27.04:030][  0]LogInit: Texture streaming: Enabled
+[2015.11.22-13.27.04:034][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.22-13.27.04:034][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.22-13.27.04:034][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 4d6edf494aaa6366e0fc9cbfe9311ea0|29085979fd9e49d891c67b2b1d3c3f13|3c529454-2f3a-4a5c-9d67-9588c1286bf3
+[2015.11.22-13.27.04:034][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.22-13.27.04:043][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.22-13.27.04:061][  0]LogInit: Transaction tracking system initialized
+[2015.11.22-13.27.04:084][  0]BlueprintLog: New page: Editor Load
+[2015.11.22-13.27.04:151][  0]LocalizationService: Info Localization service is disabled
+[2015.11.22-13.27.04:221][  0]LogConsoleResponse:Display: 
+[2015.11.22-13.27.04:440][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.22-13.27.04:501][  0]LogFileCache: Scanning file cache for directory 'D:/EpidemicGameProject/Epidemic_Source/Content/' took 0.02s
+[2015.11.22-13.27.04:501][  0]SourceControl: Info Source control is disabled
+[2015.11.22-13.27.04:501][  0]Cmd: MAP LOAD FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.22-13.27.04:502][  0]LightingResults: New page: Lighting Build
+[2015.11.22-13.27.04:504][  0]MapCheck: New page: Map Check
+[2015.11.22-13.27.04:504][  0]LightingResults: New page: Lighting Build
+[2015.11.22-13.27.04:518][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A69AE9E160
+[2015.11.22-13.27.06:340][  0]LogAIModule: Creating AISystem for world test
+[2015.11.22-13.27.06:353][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.22-13.27.06:354][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.22-13.27.06:428][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.747ms to complete.
+[2015.11.22-13.27.06:428][  0]LogFileHelpers: Loading map 'test' took 1.926
+[2015.11.22-13.27.06:592][  0]LogCollectionManager: Loaded 0 collections in 0.001391 seconds
+[2015.11.22-13.27.06:633][  0]LogFileCache: Scanning file cache for directory 'D:/EpidemicGameProject/Epidemic_Source/Saved/Collections/' took 0.01s
+[2015.11.22-13.27.06:633][  0]LogFileCache: Scanning file cache for directory 'D:/EpidemicGameProject/Epidemic_Source/Content/Developers/Ferdi/Collections/' took 0.01s
+[2015.11.22-13.27.06:633][  0]LogFileCache: Scanning file cache for directory 'D:/EpidemicGameProject/Epidemic_Source/Content/Collections/' took 0.01s
+[2015.11.22-13.27.06:633][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 1867 classes and 333 folders.
+[2015.11.22-13.27.06:651][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.22-13.27.06:656][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.22-13.27.06:805][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.22-13.27.06:810][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.11.22-13.27.06:891][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.22-13.27.06:928][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.22-13.27.06:951][  0]LogLoad: Full Startup: 9.60 seconds (BP compile: 0.26 seconds)
+[2015.11.22-13.27.07:040][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.22-13.27.07:216][  0]LogRenderer: Reallocating scene render targets to support 1176x576 (Frame:2).
+[2015.11.22-13.27.07:944][  6]LogAssetRegistry: Asset discovery search completed in 4.8238 seconds
+[2015.11.22-13.27.07:944][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.22-13.27.07:944][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2015.11.22-13.27.10:892][318]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.22-13.27.11:463][318]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.11.22-13.32.41:431][742]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.22-13.32.41:440][742]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.32.41:498][742]Cmd: MAP LOAD FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/MainScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.22-13.32.41:498][742]LightingResults: New page: Lighting Build
+[2015.11.22-13.32.41:518][742]LoadErrors: New page: Loading map: MainScreen.umap
+[2015.11.22-13.32.41:518][742]MapCheck: New page: Map Check
+[2015.11.22-13.32.41:518][742]LightingResults: New page: Lighting Build
+[2015.11.22-13.32.41:542][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A68BB18900
+[2015.11.22-13.32.41:605][742]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.22-13.32.41:645][742]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.22-13.32.41:708][742]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.38ms to complete.
+[2015.11.22-13.32.41:708][742]LogFileHelpers: Loading map 'MainScreen' took 0.212
+[2015.11.22-13.33.35:930][561]LogEditorViewport: Clicking on Actor (LMB): ManBlueprint_C (ManBlueprint)
+[2015.11.22-13.36.03:278][808]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.11.22-13.36.07:283][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.36.07:284][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.22-13.36.07:284][ 81]PIE: New page: PIE session: MainScreen (Nov 22, 2015, 5:36:07 PM)
+[2015.11.22-13.36.07:284][ 81]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.22-13.36.07:308][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024385s)
+[2015.11.22-13.36.07:309][ 81]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.22-13.36.07:309][ 81]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2015.11.22-13.36.07:309][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.025382s)
+[2015.11.22-13.36.07:309][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.36.07:310][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.22-13.36.07:344][ 81]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.22-13.36.07:350][ 81]LogInit: FAudioDevice initialized.
+[2015.11.22-13.36.07:396][ 81]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.22-13.36.07:400][ 81]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.22-15.36.07
+[2015.11.22-13.36.07:400][ 81]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.36.07:400][ 81]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.36.07:401][ 81]LogWorld: Bringing up level for play took: 0.003825
+[2015.11.22-13.36.07:405][ 81]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen -0.582
+[2015.11.22-13.36.07:405][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.36.13:587][589]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.36.13:638][589]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.36.13:665][589]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A69A7AAE80
+[2015.11.22-13.36.59:625][592]LogRenderer: Reallocating scene render targets to support 1176x688 (Frame:35511).
+[2015.11.22-13.37.14:874][340]BlueprintLog: New page: Compile ManBlueprint
+[2015.11.22-13.37.15:267][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.37.15:333][340]BlueprintEditorCompileResults: Info [0617.98] Compile of ManBlueprint successful! [in 458 ms]
+[2015.11.22-13.37.22:965][709]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.37.22:965][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.22-13.37.22:965][709]PIE: New page: PIE session: MainScreen (Nov 22, 2015, 5:37:22 PM)
+[2015.11.22-13.37.22:966][709]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.22-13.37.22:970][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004908s)
+[2015.11.22-13.37.22:971][709]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.22-13.37.22:971][709]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2015.11.22-13.37.22:972][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.005964s)
+[2015.11.22-13.37.22:972][709]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.37.23:030][709]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.22-13.37.23:035][709]LogInit: FAudioDevice initialized.
+[2015.11.22-13.37.23:068][709]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.22-13.37.23:071][709]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.22-15.37.23
+[2015.11.22-13.37.23:071][709]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.37.23:071][709]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.37.23:072][709]LogWorld: Bringing up level for play took: 0.003547
+[2015.11.22-13.37.23:076][709]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen 1.089
+[2015.11.22-13.37.23:076][709]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.37.23:102][709]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:125][710]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:144][711]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:161][712]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:178][713]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:195][714]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:211][715]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:228][716]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:245][717]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:263][718]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:279][719]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:297][720]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:314][721]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:331][722]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:348][723]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:365][724]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:384][725]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:402][726]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:419][727]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:438][728]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:456][729]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:474][730]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:491][731]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:508][732]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:526][733]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:544][734]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.23:560][735]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.37.24:733][802]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.37.24:862][802]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.37.24:890][802]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A6A7A071A0
+[2015.11.22-13.38.04:408][ 30]BlueprintLog: New page: Compile MenuCamera
+[2015.11.22-13.38.04:522][ 30]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.38.04:558][ 30]BlueprintEditorCompileResults: Info [0667.20] Compile of MenuCamera successful! [in 149 ms]
+[2015.11.22-13.38.05:617][ 83]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.38.05:617][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.22-13.38.05:617][ 83]PIE: New page: PIE session: MainScreen (Nov 22, 2015, 5:38:05 PM)
+[2015.11.22-13.38.05:617][ 83]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.22-13.38.05:643][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026190s)
+[2015.11.22-13.38.05:644][ 83]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.22-13.38.05:644][ 83]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2015.11.22-13.38.05:644][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.027107s)
+[2015.11.22-13.38.05:700][ 83]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.22-13.38.05:706][ 83]LogInit: FAudioDevice initialized.
+[2015.11.22-13.38.05:743][ 83]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.22-13.38.05:747][ 83]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.22-15.38.05
+[2015.11.22-13.38.05:747][ 83]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.38.05:747][ 83]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.38.05:748][ 83]LogWorld: Bringing up level for play took: 0.003649
+[2015.11.22-13.38.05:752][ 83]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen -0.234
+[2015.11.22-13.38.05:752][ 83]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.38.10:172][387]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.38.10:307][387]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.38.10:335][387]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7081CF100
+[2015.11.22-13.38.17:198][776]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.38.17:198][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.22-13.38.17:198][776]PIE: New page: PIE session: MainScreen (Nov 22, 2015, 5:38:17 PM)
+[2015.11.22-13.38.17:199][776]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.22-13.38.17:236][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037773s)
+[2015.11.22-13.38.17:237][776]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.22-13.38.17:237][776]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2015.11.22-13.38.17:237][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.038745s)
+[2015.11.22-13.38.17:295][776]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.22-13.38.17:300][776]LogInit: FAudioDevice initialized.
+[2015.11.22-13.38.17:331][776]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.22-13.38.17:335][776]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.22-15.38.17
+[2015.11.22-13.38.17:335][776]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.38.17:335][776]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.38.17:336][776]LogWorld: Bringing up level for play took: 0.003530
+[2015.11.22-13.38.17:340][776]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen -0.646
+[2015.11.22-13.38.17:340][776]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.38.18:699][863]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.38.18:821][863]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.38.18:869][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A708814D60
+[2015.11.22-13.39.18:551][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.39.18:551][121]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.22-13.39.18:564][121]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.39.18:582][121]LogPlayLevel: [PlayLevel] Compiling ManBlueprint before play...
+[2015.11.22-13.39.18:961][121]LogPlayLevel: PlayLevel: Blueprint regeneration took 410 ms (3 blueprints)
+[2015.11.22-13.39.18:962][121]LogPlayLevel: [PlayLevel] Compiling Fire before play...
+[2015.11.22-13.39.19:010][121]LogPlayLevel: PlayLevel: Blueprint regeneration took 459 ms (3 blueprints)
+[2015.11.22-13.39.19:011][121]LogPlayLevel: [PlayLevel] Compiling StatuesDebug before play...
+[2015.11.22-13.39.19:103][121]LogPlayLevel: PlayLevel: Blueprint regeneration took 552 ms (3 blueprints)
+[2015.11.22-13.39.19:145][121]PIE: New page: PIE session: MainScreen (Nov 22, 2015, 5:39:19 PM)
+[2015.11.22-13.39.19:145][121]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.22-13.39.19:150][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004626s)
+[2015.11.22-13.39.19:150][121]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.22-13.39.19:150][121]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2015.11.22-13.39.19:151][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.005544s)
+[2015.11.22-13.39.19:208][121]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.22-13.39.19:214][121]LogInit: FAudioDevice initialized.
+[2015.11.22-13.39.19:251][121]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.22-13.39.19:254][121]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.22-15.39.19
+[2015.11.22-13.39.19:254][121]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.39.19:255][121]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.39.19:255][121]LogWorld: Bringing up level for play took: 0.003432
+[2015.11.22-13.39.19:260][121]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen 1.273
+[2015.11.22-13.39.19:260][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.39.19:467][121]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:559][122]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:596][123]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:615][124]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:633][125]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:649][126]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:666][127]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:683][128]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:701][129]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:718][130]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:734][131]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:753][132]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:770][133]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:787][134]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:805][135]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:823][136]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:841][137]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:858][138]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:875][139]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:893][140]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:910][141]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:926][142]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:943][143]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:961][144]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:978][145]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.19:995][146]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.20:012][147]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.20:686][186]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.39.20:817][186]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.39.20:817][186]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.39.20:866][186]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A69A9DC0E0
+[2015.11.22-13.39.41:343][208]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.39.41:343][208]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.22-13.39.41:355][208]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.39.41:375][208]LogPlayLevel: [PlayLevel] Compiling ManBlueprint before play...
+[2015.11.22-13.39.41:759][208]LogPlayLevel: PlayLevel: Blueprint regeneration took 416 ms (3 blueprints)
+[2015.11.22-13.39.41:760][208]LogPlayLevel: [PlayLevel] Compiling Fire before play...
+[2015.11.22-13.39.41:809][208]LogPlayLevel: PlayLevel: Blueprint regeneration took 466 ms (3 blueprints)
+[2015.11.22-13.39.41:810][208]LogPlayLevel: [PlayLevel] Compiling StatuesDebug before play...
+[2015.11.22-13.39.41:900][208]LogPlayLevel: PlayLevel: Blueprint regeneration took 557 ms (3 blueprints)
+[2015.11.22-13.39.41:943][208]PIE: New page: PIE session: MainScreen (Nov 22, 2015, 5:39:41 PM)
+[2015.11.22-13.39.41:943][208]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.22-13.39.41:947][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004603s)
+[2015.11.22-13.39.41:948][208]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.22-13.39.41:948][208]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2015.11.22-13.39.41:948][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.005473s)
+[2015.11.22-13.39.42:009][208]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.22-13.39.42:015][208]LogInit: FAudioDevice initialized.
+[2015.11.22-13.39.42:052][208]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.22-13.39.42:057][208]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.22-15.39.42
+[2015.11.22-13.39.42:057][208]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.39.42:057][208]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.39.42:058][208]LogWorld: Bringing up level for play took: 0.004723
+[2015.11.22-13.39.42:062][208]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen 0.075
+[2015.11.22-13.39.42:062][208]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.39.42:258][208]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:356][209]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:395][210]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:413][211]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:433][212]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:450][213]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:469][214]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:487][215]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:505][216]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:524][217]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:542][218]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:558][219]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:577][220]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:594][221]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:612][222]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:629][223]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:646][224]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:663][225]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:681][226]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:700][227]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:718][228]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:735][229]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:753][230]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:770][231]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:788][232]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:806][233]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.42:822][234]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.39.43:318][263]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.39.43:451][263]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.39.43:451][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.39.43:495][263]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A7140A76A0
+[2015.11.22-13.40.42:206][104]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Ferdi/Desktop/ManSurvivor/Eyes1.fbx)
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: Material, ItemCount : 1
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: Texture, ItemCount : 4
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: Model, ItemCount : 10
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: NodeAttribute, ItemCount : 9
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: AnimationCurveNode, ItemCount : 33
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: AnimationCurve, ItemCount : 21
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: Pose, ItemCount : 1
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: Deformer, ItemCount : 2
+[2015.11.22-13.40.42:214][104]LogFbx: ItemName: Video, ItemCount : 4
+[2015.11.22-13.40.42:221][104]LogFbx: Loading FBX Scene from C:/Users/Ferdi/Desktop/ManSurvivor/Eyes1.fbx
+[2015.11.22-13.40.42:234][104]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.22-13.40.48:781][104]LogFbx: Loading FBX Scene from C:/Users/Ferdi/Desktop/ManSurvivor/Eyes1.fbx
+[2015.11.22-13.40.48:793][104]LogFbx: FBX Scene Loaded Succesfully
+[2015.11.22-13.40.48:795][104]LogFbx: =================================================
+[2015.11.22-13.40.48:795][104]LogFbx: Dumping Node START [Eyes1] 
+[2015.11.22-13.40.48:795][104]LogFbx: 	Total Deformer Count 444704288.
+[2015.11.22-13.40.48:796][104]LogFbx: 		[Node 1]  (Type Skin).
+[2015.11.22-13.40.48:796][104]LogFbx: =================================================
+[2015.11.22-13.40.48:796][104]LogFbx: 	Attribute () Type (4).
+[2015.11.22-13.40.48:796][104]LogFbx: 		[Node Attribute Child 1] Eyes1 (Type Mesh).
+[2015.11.22-13.40.48:796][104]LogFbx: Dumping Node END [Eyes1]
+[2015.11.22-13.40.48:796][104]LogFbx: =================================================
+[2015.11.22-13.40.48:796][104]LogFbx: Dumping Node START [Eyes1] 
+[2015.11.22-13.40.48:796][104]LogFbx: 	Total Deformer Count 444704288.
+[2015.11.22-13.40.48:796][104]LogFbx: 		[Node 1]  (Type Skin).
+[2015.11.22-13.40.48:796][104]LogFbx: =================================================
+[2015.11.22-13.40.48:796][104]LogFbx: 	Attribute () Type (4).
+[2015.11.22-13.40.48:796][104]LogFbx: 		[Node Attribute Child 1] Eyes1 (Type Mesh).
+[2015.11.22-13.40.48:796][104]LogFbx: Dumping Node END [Eyes1]
+[2015.11.22-13.40.48:797][104]LogFbx: Valid bind pose for Pose (skinCluster2) - Eyes1
+[2015.11.22-13.40.48:798][104]LogFbx: Triangulating skeletal mesh Eyes1
+[2015.11.22-13.40.49:053][104]LogFbx:Warning: Bones digested - 9  Depth of hierarchy - 7
+[2015.11.22-13.40.49:063][104]LogSkeletalMesh: Chunk 0: 804 rigid vertices, 0 soft vertices, 1 active bones
+[2015.11.22-13.40.49:065][104]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 1520 triangles
+[2015.11.22-13.40.49:067][104]LogLinker:Warning: Can't find file '/Game/Assets/Meshes/Characters/ManCharacter1/BodyParts/Eyes1_PhysicsAsset'
+[2015.11.22-13.40.49:067][104]LogLinker:Warning: Can't find file '/Game/Assets/Meshes/Characters/ManCharacter1/BodyParts/Eyes1_PhysicsAsset'
+[2015.11.22-13.40.49:067][104]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Assets/Meshes/Characters/ManCharacter1/BodyParts/Eyes1_PhysicsAsset.Eyes1_PhysicsAsset'
+[2015.11.22-13.40.49:071][104]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.11.22-13.40.49:071][104]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:RightEye  
+mixamorig:LeftEye  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2015.11.22-13.40.52:822][280]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.40.52:958][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MainScreen" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/MainScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.22-13.40.53:101][280]LogSavePackage: Save=95.397491ms
+[2015.11.22-13.40.53:101][280]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/MainScreenEAEEB27842A64E8D89EB76A2A04DF6AE.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/MainScreen.umap'
+[2015.11.22-13.40.53:103][280]LogSavePackage: Total save time: 115.208518ms
+[2015.11.22-13.40.53:103][280]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/MainScreen.umap
+[2015.11.22-13.40.53:142][280]LogFileHelpers: Saving map 'MainScreen' took 0.255
+[2015.11.22-13.40.53:168][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint/ManBlueprint" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Blueprints/PlayerBlueprint/ManBlueprint.uasset" SILENT=true
+[2015.11.22-13.40.53:680][280]LogSavePackage: Save=494.357635ms
+[2015.11.22-13.40.53:680][280]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/ManBlueprintE022311F4AA2D2B25101FDAF865680FB.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Blueprints/PlayerBlueprint/ManBlueprint.uasset'
+[2015.11.22-13.40.53:682][280]LogSavePackage: Total save time: 512.549497ms
+[2015.11.22-13.40.53:682][280]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Blueprints/PlayerBlueprint/ManBlueprint.uasset
+[2015.11.22-13.40.53:690][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint/MenuCamera" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Blueprints/PlayerBlueprint/MenuCamera.uasset" SILENT=true
+[2015.11.22-13.40.53:731][280]LogSavePackage: Save=26.812651ms
+[2015.11.22-13.40.53:731][280]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/MenuCamera00FFA20E4E97F41FFAFF16B0823DF7CB.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Blueprints/PlayerBlueprint/MenuCamera.uasset'
+[2015.11.22-13.40.53:732][280]LogSavePackage: Total save time: 41.993756ms
+[2015.11.22-13.40.53:732][280]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Blueprints/PlayerBlueprint/MenuCamera.uasset
+[2015.11.22-13.40.53:772][280]LogSavePackage: Save=12.966667ms
+[2015.11.22-13.40.53:772][280]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/Eyes1C10B08764C63E3CC1E2DA883465B2FA9.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Assets/Meshes/Characters/ManCharacter1/BodyParts/Eyes1.uasset'
+[2015.11.22-13.40.53:773][280]LogSavePackage: Total save time: 14.342543ms
+[2015.11.22-13.40.53:773][280]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Assets/Meshes/Characters/ManCharacter1/BodyParts/Eyes1.uasset
+[2015.11.22-13.40.53:790][280]LogSavePackage: Save=5.804452ms
+[2015.11.22-13.40.53:790][280]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/Eyes1_PhysicsAsset64DF982841455735C547938B9BD9ED8C.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Assets/Meshes/Characters/ManCharacter1/BodyParts/Eyes1_PhysicsAsset.uasset'
+[2015.11.22-13.40.53:791][280]LogSavePackage: Total save time: 7.108182ms
+[2015.11.22-13.40.53:791][280]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Assets/Meshes/Characters/ManCharacter1/BodyParts/Eyes1_PhysicsAsset.uasset
+[2015.11.22-13.40.54:475][303]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.11.22-13.40.54:497][303]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.22-13.40.54:553][304]LogRenderer: Reallocating scene render targets to support 1176x880 (Frame:55864).
+[2015.11.22-13.41.02:468][688]BlueprintLog: New page: Compile ManBlueprint
+[2015.11.22-13.41.02:856][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.41.02:892][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A6AFA4D620
+[2015.11.22-13.41.02:892][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A6AFA4CC20
+[2015.11.22-13.41.02:917][688]BlueprintEditorCompileResults: Info [0845.56] Compile of ManBlueprint successful! [in 449 ms]
+[2015.11.22-13.41.03:496][700]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.41.03:496][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.22-13.41.03:496][700]PIE: New page: PIE session: MainScreen (Nov 22, 2015, 5:41:03 PM)
+[2015.11.22-13.41.03:496][700]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.22-13.41.03:501][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004649s)
+[2015.11.22-13.41.03:502][700]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.22-13.41.03:502][700]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2015.11.22-13.41.03:502][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.005627s)
+[2015.11.22-13.41.03:502][700]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.41.03:559][700]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.22-13.41.03:564][700]LogInit: FAudioDevice initialized.
+[2015.11.22-13.41.03:596][700]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.22-13.41.03:600][700]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.22-15.41.03
+[2015.11.22-13.41.03:600][700]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.41.03:600][700]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.41.03:601][700]LogWorld: Bringing up level for play took: 0.003752
+[2015.11.22-13.41.03:605][700]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen -0.382
+[2015.11.22-13.41.03:605][700]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.41.03:627][700]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:648][701]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:666][702]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:686][703]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:704][704]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:722][705]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:740][706]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:762][707]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:780][708]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:799][709]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:817][710]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:836][711]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:855][712]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:873][713]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:892][714]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:910][715]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:929][716]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:946][717]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:963][718]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:982][719]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.03:998][720]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.04:016][721]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.04:032][722]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.04:050][723]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.04:068][724]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.04:085][725]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.04:103][726]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Statues Debug Widget' to 'Set StatuesDebugReference'.
+[2015.11.22-13.41.08:326][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.41.08:459][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.41.08:486][961]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A713F5DA80
+[2015.11.22-13.41.28:425][941]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.11.22-13.44.45:274][322]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.11.22-13.44.51:327][742]BlueprintLog: New page: Compile MainMenuElements
+[2015.11.22-13.44.51:493][742]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.44.51:530][742]BlueprintEditorCompileResults: Info [1074.18] Compile of MainMenuElements successful! [in 202 ms]
+[2015.11.22-13.44.54:067][908]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.44.54:067][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.22-13.44.54:067][908]PIE: New page: PIE session: MainScreen (Nov 22, 2015, 5:44:54 PM)
+[2015.11.22-13.44.54:068][908]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.22-13.44.54:073][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005264s)
+[2015.11.22-13.44.54:074][908]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.22-13.44.54:074][908]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2015.11.22-13.44.54:074][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.006322s)
+[2015.11.22-13.44.54:107][908]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.22-13.44.54:113][908]LogInit: FAudioDevice initialized.
+[2015.11.22-13.44.54:149][908]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.22-13.44.54:153][908]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.22-15.44.54
+[2015.11.22-13.44.54:153][908]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.44.54:153][908]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.44.54:154][908]LogWorld: Bringing up level for play took: 0.003635
+[2015.11.22-13.44.54:158][908]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen 0.171
+[2015.11.22-13.44.54:158][908]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.44.56:643][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.44.56:706][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.44.56:734][ 98]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A68B25E0C0
+[2015.11.22-13.45.29:514][674]BlueprintLog: New page: Compile CharacterCreation
+[2015.11.22-13.45.29:638][674]BlueprintEditorCompileResults: Info [1112.28] Compile of CharacterCreation successful! [in 123 ms]
+[2015.11.22-13.45.30:037][690]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.45.30:037][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.22-13.45.30:037][690]PIE: New page: PIE session: MainScreen (Nov 22, 2015, 5:45:30 PM)
+[2015.11.22-13.45.30:037][690]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.22-13.45.30:042][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004614s)
+[2015.11.22-13.45.30:042][690]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.22-13.45.30:042][690]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2015.11.22-13.45.30:043][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.005589s)
+[2015.11.22-13.45.30:076][690]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.22-13.45.30:082][690]LogInit: FAudioDevice initialized.
+[2015.11.22-13.45.30:122][690]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.22-13.45.30:126][690]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.22-15.45.30
+[2015.11.22-13.45.30:126][690]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.45.30:126][690]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.45.30:127][690]LogWorld: Bringing up level for play took: 0.003752
+[2015.11.22-13.45.30:131][690]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen 0.144
+[2015.11.22-13.45.30:131][690]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.45.42:982][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.45.43:032][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.45.43:061][357]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A712A782C0
+[2015.11.22-13.46.43:962][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/CharacterCreation.CharacterCreation_C:WidgetTree_261.CanvasPanel_0
+[2015.11.22-13.46.43:962][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/StatuesDebug.StatuesDebug:WidgetTree.CanvasPanel_0
+[2015.11.22-13.46.43:962][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_3.WidgetTree_260.CanvasPanel_0
+[2015.11.22-13.46.43:962][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/MainMenu.MainMenu_C:WidgetTree_242.CanvasPanel_0
+[2015.11.22-13.46.43:962][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/CharacterCreation.CharacterCreation_C:WidgetTree_259.CanvasPanel_0
+[2015.11.22-13.46.43:962][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/CharacterCreation.CharacterCreation_C:WidgetTree_257.CanvasPanel_0
+[2015.11.22-13.46.43:962][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/StatuesDebug.StatuesDebug_C:WidgetTree_132.CanvasPanel_0
+[2015.11.22-13.46.43:962][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/CharacterCreation.CharacterCreation_C:WidgetTree_225.CanvasPanel_0
+[2015.11.22-13.46.43:962][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/MainMenu.MainMenu:WidgetTree.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/CharacterCreation.CharacterCreation_C:WidgetTree_215.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_2.WidgetTree_258.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/MainMenu.MainMenu_C:WidgetTree_251.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:MainMenu_C_10.WidgetTree_254.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_0.WidgetTree_226.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/CharacterCreation.CharacterCreation:WidgetTree.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/MainMenu.MainMenu_C:WidgetTree_164.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_13:MainMenu_C_1.WidgetTree_50.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/CharacterCreation.CharacterCreation_C:WidgetTree_263.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_5.WidgetTree_264.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Game/GUI/Widgets/CharacterCreation.CharacterCreation_C:WidgetTree_265.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_18:CharacterCreation_C_6.WidgetTree_266.CanvasPanel_0
+[2015.11.22-13.46.43:963][ 61]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.World_18:CharacterCreation_C_4.WidgetTree_262.CanvasPanel_0.CanvasPanelSlot_121) from referencer (Button /Engine/UMG/Editor/Transient.ManButton).  Import failed...
+[2015.11.22-13.46.43:963][ 61]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_121''
+[2015.11.22-13.47.55:203][381]BlueprintLog: New page: Compile CharacterCreation
+[2015.11.22-13.47.55:307][381]BlueprintEditorCompileResults: Info [1257.95] Compile of CharacterCreation successful! [in 104 ms]
+[2015.11.22-13.48.15:382][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MainScreen" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/MainScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.22-13.48.15:523][424]LogSavePackage: Save=91.161499ms
+[2015.11.22-13.48.15:523][424]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/MainScreen94872FC541CF41AFEBB8A39F198E8DED.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/MainScreen.umap'
+[2015.11.22-13.48.15:524][424]LogSavePackage: Total save time: 110.007480ms
+[2015.11.22-13.48.15:524][424]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/MainScreen.umap
+[2015.11.22-13.48.15:564][424]LogFileHelpers: Saving map 'MainScreen' took 0.353
+[2015.11.22-13.48.15:590][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint/ManBlueprint" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Blueprints/PlayerBlueprint/ManBlueprint.uasset" SILENT=true
+[2015.11.22-13.48.16:102][424]LogSavePackage: Save=494.914886ms
+[2015.11.22-13.48.16:102][424]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/ManBlueprint26CFC0064C8F784549463A9E57A4236B.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Blueprints/PlayerBlueprint/ManBlueprint.uasset'
+[2015.11.22-13.48.16:103][424]LogSavePackage: Total save time: 512.974516ms
+[2015.11.22-13.48.16:103][424]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Blueprints/PlayerBlueprint/ManBlueprint.uasset
+[2015.11.22-13.48.16:112][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/Widgets/MainMenuElements" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/MainMenuElements.uasset" SILENT=true
+[2015.11.22-13.48.16:149][424]LogSavePackage: Save=22.012785ms
+[2015.11.22-13.48.16:150][424]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/MainMenuElements25FF689D430A09CC921199AA9AD47499.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/MainMenuElements.uasset'
+[2015.11.22-13.48.16:151][424]LogSavePackage: Total save time: 38.188819ms
+[2015.11.22-13.48.16:151][424]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/MainMenuElements.uasset
+[2015.11.22-13.48.16:158][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/Widgets/CharacterCreation" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreation.uasset" SILENT=true
+[2015.11.22-13.48.16:182][424]LogSavePackage: Save=7.857699ms
+[2015.11.22-13.48.16:182][424]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/CharacterCreationDD3EEC8243EA672278DF93A50EB8A464.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreation.uasset'
+[2015.11.22-13.48.16:183][424]LogSavePackage: Total save time: 24.575569ms
+[2015.11.22-13.48.16:183][424]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreation.uasset
+[2015.11.22-13.48.16:190][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/Widgets/CharacterCreatePanel" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreatePanel.uasset" SILENT=true
+[2015.11.22-13.48.16:199][424]LogSavePackage: Save=8.346409ms
+[2015.11.22-13.48.16:199][424]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/CharacterCreatePanel9FCA60B848CDF3668ED0039DF722BF1D.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreatePanel.uasset'
+[2015.11.22-13.48.16:200][424]LogSavePackage: Total save time: 9.735867ms
+[2015.11.22-13.48.16:200][424]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreatePanel.uasset
+[2015.11.22-13.48.34:415][367]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Engine/Transient.World_18:CharacterCreation_C_8.WidgetTree_270.SizeBox_7 or SizeBox /Engine/Transient.World_18:CharacterCreation_C_9.WidgetTree_272.SizeBox_7
+[2015.11.22-13.48.34:415][367]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Engine/Transient.World_18:CharacterCreation_C_8.WidgetTree_270.SizeBox_7 or SizeBox /Engine/Transient.World_18:CharacterCreation_C_10.WidgetTree_274.SizeBox_7
+[2015.11.22-13.48.34:415][367]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Engine/Transient.World_18:CharacterCreation_C_8.WidgetTree_270.SizeBox_7 or SizeBox /Engine/Transient.World_18:CharacterCreation_C_11.WidgetTree_276.SizeBox_7
+[2015.11.22-13.48.34:415][367]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Engine/Transient.World_18:CharacterCreation_C_8.WidgetTree_270.SizeBox_7 or SizeBox /Engine/Transient.World_18:CharacterCreation_C_12.WidgetTree_278.SizeBox_7
+[2015.11.22-13.48.34:415][367]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Engine/Transient.World_18:CharacterCreation_C_8.WidgetTree_270.SizeBox_7 or SizeBox /Engine/Transient.World_18:CharacterCreation_C_13.WidgetTree_280.SizeBox_7
+[2015.11.22-13.48.34:415][367]LogUObjectHash:Warning: Ambiguous search, could be SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_9.WidgetTree_272.SizeBox_7.SizeBoxSlot_7 or SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_10.WidgetTree_274.SizeBox_7.SizeBoxSlot_7
+[2015.11.22-13.48.34:415][367]LogUObjectHash:Warning: Ambiguous search, could be SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_9.WidgetTree_272.SizeBox_7.SizeBoxSlot_7 or SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_11.WidgetTree_276.SizeBox_7.SizeBoxSlot_7
+[2015.11.22-13.48.34:415][367]LogUObjectHash:Warning: Ambiguous search, could be SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_9.WidgetTree_272.SizeBox_7.SizeBoxSlot_7 or SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_12.WidgetTree_278.SizeBox_7.SizeBoxSlot_7
+[2015.11.22-13.48.34:415][367]LogProperty:Warning: Illegal TEXT reference to a private object in external package (SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_9.WidgetTree_272.SizeBox_7.SizeBoxSlot_7) from referencer (Button /Engine/UMG/Editor/Transient.ManButton).  Import failed...
+[2015.11.22-13.48.34:415][367]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'SizeBoxSlot'SizeBox_7.SizeBoxSlot_7''
+[2015.11.22-13.48.40:760][672]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Engine/Transient.World_18:CharacterCreation_C_8.WidgetTree_270.SizeBox_7 or SizeBox /Engine/Transient.World_18:CharacterCreation_C_9.WidgetTree_272.SizeBox_7
+[2015.11.22-13.48.40:760][672]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Engine/Transient.World_18:CharacterCreation_C_8.WidgetTree_270.SizeBox_7 or SizeBox /Engine/Transient.World_18:CharacterCreation_C_10.WidgetTree_274.SizeBox_7
+[2015.11.22-13.48.40:760][672]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Engine/Transient.World_18:CharacterCreation_C_8.WidgetTree_270.SizeBox_7 or SizeBox /Engine/Transient.World_18:CharacterCreation_C_11.WidgetTree_276.SizeBox_7
+[2015.11.22-13.48.40:760][672]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Engine/Transient.World_18:CharacterCreation_C_8.WidgetTree_270.SizeBox_7 or SizeBox /Engine/Transient.World_18:CharacterCreation_C_12.WidgetTree_278.SizeBox_7
+[2015.11.22-13.48.40:760][672]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Engine/Transient.World_18:CharacterCreation_C_8.WidgetTree_270.SizeBox_7 or SizeBox /Engine/Transient.World_18:CharacterCreation_C_13.WidgetTree_280.SizeBox_7
+[2015.11.22-13.48.40:760][672]LogUObjectHash:Warning: Ambiguous search, could be SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_9.WidgetTree_272.SizeBox_7.SizeBoxSlot_7 or SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_10.WidgetTree_274.SizeBox_7.SizeBoxSlot_7
+[2015.11.22-13.48.40:760][672]LogUObjectHash:Warning: Ambiguous search, could be SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_9.WidgetTree_272.SizeBox_7.SizeBoxSlot_7 or SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_11.WidgetTree_276.SizeBox_7.SizeBoxSlot_7
+[2015.11.22-13.48.40:760][672]LogUObjectHash:Warning: Ambiguous search, could be SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_9.WidgetTree_272.SizeBox_7.SizeBoxSlot_7 or SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_12.WidgetTree_278.SizeBox_7.SizeBoxSlot_7
+[2015.11.22-13.48.40:760][672]LogProperty:Warning: Illegal TEXT reference to a private object in external package (SizeBoxSlot /Engine/Transient.World_18:CharacterCreation_C_9.WidgetTree_272.SizeBox_7.SizeBoxSlot_7) from referencer (Button /Engine/UMG/Editor/Transient.ManButton).  Import failed...
+[2015.11.22-13.48.40:760][672]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'SizeBoxSlot'SizeBox_7.SizeBoxSlot_7''
+[2015.11.22-13.49.15:900][353]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.SizeBox_17 or SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_343.SizeBox_17
+[2015.11.22-13.49.15:900][353]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.SizeBox_17 or SizeBox /Engine/Transient.World_20:CharacterCreatePanel_C_3.WidgetTree_344.SizeBox_17
+[2015.11.22-13.49.15:900][353]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.SizeBox_17 or SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_345.SizeBox_17
+[2015.11.22-13.49.15:900][353]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.SizeBox_17 or SizeBox /Engine/Transient.World_20:CharacterCreatePanel_C_4.WidgetTree_346.SizeBox_17
+[2015.11.22-13.49.15:900][353]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.SizeBox_17 or SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_347.SizeBox_17
+[2015.11.22-13.49.15:900][353]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.SizeBox_17 or SizeBox /Engine/Transient.World_20:CharacterCreatePanel_C_5.WidgetTree_348.SizeBox_17
+[2015.11.22-13.49.15:900][353]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.SizeBox_17 or SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_349.SizeBox_17
+[2015.11.22-13.49.15:900][353]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.SizeBox_17 or SizeBox /Engine/Transient.World_20:CharacterCreatePanel_C_6.WidgetTree_350.SizeBox_17
+[2015.11.22-13.49.15:900][353]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.SizeBox_17 or SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_351.SizeBox_17
+[2015.11.22-13.49.15:900][353]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.SizeBox_17 or SizeBox /Engine/Transient.World_20:CharacterCreatePanel_C_7.WidgetTree_352.SizeBox_17
+[2015.11.22-13.49.15:900][353]LogProperty:Warning: Illegal TEXT reference to a private object in external package (SizeBoxSlot /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.SizeBox_17.SizeBoxSlot_14) from referencer (Button /Engine/UMG/Editor/Transient.ManButton).  Import failed...
+[2015.11.22-13.49.15:900][353]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'SizeBoxSlot'SizeBox_17.SizeBoxSlot_14''
+[2015.11.22-13.49.19:007][493]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_349.VerticalBox_10
+[2015.11.22-13.49.19:007][493]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_6.WidgetTree_350.VerticalBox_10
+[2015.11.22-13.49.19:008][493]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_351.VerticalBox_10
+[2015.11.22-13.49.19:008][493]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_7.WidgetTree_352.VerticalBox_10
+[2015.11.22-13.49.19:008][493]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_353.VerticalBox_10
+[2015.11.22-13.49.19:008][493]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_8.WidgetTree_354.VerticalBox_10
+[2015.11.22-13.49.19:008][493]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10.VerticalBoxSlot_34) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_2).  Import failed...
+[2015.11.22-13.49.19:008][493]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_10.VerticalBoxSlot_34''
+[2015.11.22-13.49.19:853][527]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_349.VerticalBox_10
+[2015.11.22-13.49.19:853][527]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_6.WidgetTree_350.VerticalBox_10
+[2015.11.22-13.49.19:853][527]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_351.VerticalBox_10
+[2015.11.22-13.49.19:853][527]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_7.WidgetTree_352.VerticalBox_10
+[2015.11.22-13.49.19:853][527]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_353.VerticalBox_10
+[2015.11.22-13.49.19:853][527]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_8.WidgetTree_354.VerticalBox_10
+[2015.11.22-13.49.19:853][527]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_355.VerticalBox_10
+[2015.11.22-13.49.19:853][527]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_9.WidgetTree_356.VerticalBox_10
+[2015.11.22-13.49.19:853][527]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10.VerticalBoxSlot_34) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_2).  Import failed...
+[2015.11.22-13.49.19:853][527]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_10.VerticalBoxSlot_34''
+[2015.11.22-13.49.20:703][562]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_349.VerticalBox_10
+[2015.11.22-13.49.20:703][562]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_6.WidgetTree_350.VerticalBox_10
+[2015.11.22-13.49.20:703][562]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_351.VerticalBox_10
+[2015.11.22-13.49.20:703][562]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_7.WidgetTree_352.VerticalBox_10
+[2015.11.22-13.49.20:703][562]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_353.VerticalBox_10
+[2015.11.22-13.49.20:703][562]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_8.WidgetTree_354.VerticalBox_10
+[2015.11.22-13.49.20:704][562]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_355.VerticalBox_10
+[2015.11.22-13.49.20:704][562]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_9.WidgetTree_356.VerticalBox_10
+[2015.11.22-13.49.20:704][562]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_357.VerticalBox_10
+[2015.11.22-13.49.20:704][562]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_10.WidgetTree_358.VerticalBox_10
+[2015.11.22-13.49.20:704][562]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10.VerticalBoxSlot_34) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_2).  Import failed...
+[2015.11.22-13.49.20:704][562]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_10.VerticalBoxSlot_34''
+[2015.11.22-13.49.21:855][609]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_349.VerticalBox_10
+[2015.11.22-13.49.21:855][609]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_6.WidgetTree_350.VerticalBox_10
+[2015.11.22-13.49.21:855][609]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_351.VerticalBox_10
+[2015.11.22-13.49.21:855][609]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_7.WidgetTree_352.VerticalBox_10
+[2015.11.22-13.49.21:855][609]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_353.VerticalBox_10
+[2015.11.22-13.49.21:855][609]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_8.WidgetTree_354.VerticalBox_10
+[2015.11.22-13.49.21:855][609]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_355.VerticalBox_10
+[2015.11.22-13.49.21:855][609]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_9.WidgetTree_356.VerticalBox_10
+[2015.11.22-13.49.21:855][609]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_357.VerticalBox_10
+[2015.11.22-13.49.21:855][609]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_10.WidgetTree_358.VerticalBox_10
+[2015.11.22-13.49.21:855][609]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_359.VerticalBox_10
+[2015.11.22-13.49.21:855][609]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10 or VerticalBox /Engine/Transient.World_20:CharacterCreatePanel_C_11.WidgetTree_360.VerticalBox_10
+[2015.11.22-13.49.21:855][609]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.VerticalBox_10.VerticalBoxSlot_34) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_2).  Import failed...
+[2015.11.22-13.49.21:855][609]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_10.VerticalBoxSlot_34''
+[2015.11.22-13.49.28:772][896]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_351.HorizontalBox_2
+[2015.11.22-13.49.28:772][896]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_7.WidgetTree_352.HorizontalBox_2
+[2015.11.22-13.49.28:772][896]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_353.HorizontalBox_2
+[2015.11.22-13.49.28:772][896]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_8.WidgetTree_354.HorizontalBox_2
+[2015.11.22-13.49.28:772][896]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_355.HorizontalBox_2
+[2015.11.22-13.49.28:772][896]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_9.WidgetTree_356.HorizontalBox_2
+[2015.11.22-13.49.28:772][896]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_357.HorizontalBox_2
+[2015.11.22-13.49.28:772][896]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_10.WidgetTree_358.HorizontalBox_2
+[2015.11.22-13.49.28:772][896]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_359.HorizontalBox_2
+[2015.11.22-13.49.28:772][896]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_11.WidgetTree_360.HorizontalBox_2
+[2015.11.22-13.49.28:772][896]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_361.HorizontalBox_2
+[2015.11.22-13.49.28:772][896]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_12.WidgetTree_362.HorizontalBox_2
+[2015.11.22-13.49.28:772][896]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_6) from referencer (Button /Engine/UMG/Editor/Transient.ManButton).  Import failed...
+[2015.11.22-13.49.28:772][896]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_2.HorizontalBoxSlot_6''
+[2015.11.22-13.50.51:621][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_355.HorizontalBox_3
+[2015.11.22-13.50.51:621][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_9.WidgetTree_356.HorizontalBox_3
+[2015.11.22-13.50.51:621][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_357.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_10.WidgetTree_358.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_359.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_11.WidgetTree_360.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_361.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_12.WidgetTree_362.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_363.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_13.WidgetTree_364.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_365.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_14.WidgetTree_366.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_367.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_15.WidgetTree_368.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_369.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_16.WidgetTree_370.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_371.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3 or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_17.WidgetTree_372.HorizontalBox_3
+[2015.11.22-13.50.51:622][518]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.HorizontalBox_3.HorizontalBoxSlot_6) from referencer (Button /Engine/UMG/Editor/Transient.Hair1Button).  Import failed...
+[2015.11.22-13.50.51:622][518]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_3.HorizontalBoxSlot_6''
+[2015.11.22-13.52.04:170][542]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/Blueprints/PlayerBlueprint/ManBlueprint.ManBlueprint_C:Beard or ObjectProperty /Game/Blueprints/PlayerBlueprint/ManBlueprint.SKEL_ManBlueprint_C:Beard
+[2015.11.22-13.52.04:170][542]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/Blueprints/PlayerBlueprint/ManBlueprint.ManBlueprint_C:Beard or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.Beard
+[2015.11.22-13.52.04:170][542]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/Blueprints/PlayerBlueprint/ManBlueprint.ManBlueprint_C:Beard or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_24.WidgetTree_386.Beard
+[2015.11.22-13.52.04:170][542]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/Blueprints/PlayerBlueprint/ManBlueprint.ManBlueprint_C:Beard or SkeletalMeshComponent /Engine/Transient.World_6:PersistentLevel.ManBlueprint_C_0.Beard
+[2015.11.22-13.52.04:170][542]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/Blueprints/PlayerBlueprint/ManBlueprint.ManBlueprint_C:Beard or SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_C_2.Beard
+[2015.11.22-13.52.04:170][542]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/Blueprints/PlayerBlueprint/ManBlueprint.ManBlueprint_C:Beard or HorizontalBox /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_387.Beard
+[2015.11.22-13.52.04:170][542]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/Blueprints/PlayerBlueprint/ManBlueprint.ManBlueprint_C:Beard or HorizontalBox /Engine/Transient.World_20:CharacterCreatePanel_C_25.WidgetTree_388.Beard
+[2015.11.22-13.52.04:170][542]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.Beard.HorizontalBoxSlot_6 or HorizontalBoxSlot /Engine/Transient.World_20:CharacterCreatePanel_C_24.WidgetTree_386.Beard.HorizontalBoxSlot_6
+[2015.11.22-13.52.04:170][542]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.Beard.HorizontalBoxSlot_6 or HorizontalBoxSlot /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel_C:WidgetTree_387.Beard.HorizontalBoxSlot_6
+[2015.11.22-13.52.04:170][542]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.Beard.HorizontalBoxSlot_6 or HorizontalBoxSlot /Engine/Transient.World_20:CharacterCreatePanel_C_25.WidgetTree_388.Beard.HorizontalBoxSlot_6
+[2015.11.22-13.52.04:170][542]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/GUI/Widgets/CharacterCreatePanel.CharacterCreatePanel:WidgetTree.Beard.HorizontalBoxSlot_6) from referencer (Button /Engine/UMG/Editor/Transient.Button_180).  Import failed...
+[2015.11.22-13.52.04:170][542]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'Beard.HorizontalBoxSlot_6''
+[2015.11.22-13.54.04:388][610]BlueprintLog: New page: Compile CharacterCreatePanel
+[2015.11.22-13.54.04:440][610]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-13.54.04:496][610]BlueprintEditorCompileResults: Info [1627.14] Compile of CharacterCreatePanel successful! [in 107 ms]
+[2015.11.22-13.54.26:366][730]LogEditorTransaction: Undo Add Widget
+[2015.11.22-13.55.15:276][  7]LogEditorTransaction: Undo Resize Widget
+[2015.11.22-13.55.17:342][ 80]LogEditorTransaction: Undo Resize Widget
+[2015.11.22-13.55.18:994][138]LogEditorTransaction: Undo Resize Widget
+[2015.11.22-13.56.50:434][207]BlueprintLog: New page: Compile CharacterCreation
+[2015.11.22-13.56.50:544][207]BlueprintEditorCompileResults: Info [1793.19] Compile of CharacterCreation successful! [in 110 ms]
+[2015.11.22-13.57.14:255][270]BlueprintLog: New page: Compile CharacterCreation
+[2015.11.22-13.57.14:394][270]BlueprintEditorCompileResults: Info [1817.04] Compile of CharacterCreation successful! [in 138 ms]
+[2015.11.22-13.57.17:663][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.57.17:664][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.22-13.57.17:664][413]PIE: New page: PIE session: MainScreen (Nov 22, 2015, 5:57:17 PM)
+[2015.11.22-13.57.17:664][413]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.22-13.57.17:669][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005019s)
+[2015.11.22-13.57.17:670][413]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.22-13.57.17:670][413]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2015.11.22-13.57.17:670][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.006130s)
+[2015.11.22-13.57.17:708][413]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.22-13.57.17:714][413]LogInit: FAudioDevice initialized.
+[2015.11.22-13.57.17:754][413]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.22-13.57.17:758][413]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.22-15.57.17
+[2015.11.22-13.57.17:758][413]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.57.17:758][413]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-13.57.17:759][413]LogWorld: Bringing up level for play took: 0.003748
+[2015.11.22-13.57.17:763][413]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen -0.225
+[2015.11.22-13.57.17:763][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.57.28:118][944]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.57.28:169][944]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-13.57.28:199][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A68B683C40
+[2015.11.22-13.58.38:838][ 26]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.11:101][217]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.20:917][881]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.20:924][881]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.20:932][881]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.20:955][881]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.24:842][130]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.24:864][130]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.26:137][211]BlueprintLog: New page: Compile CharacterCreation
+[2015.11.22-13.59.26:242][211]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.26:245][211]BlueprintEditorCompileResults: Info [1948.89] Compile of CharacterCreation successful! [in 108 ms]
+[2015.11.22-13.59.26:284][211]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.29:112][391]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.41:771][ 50]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.44:037][195]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.44:045][195]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.44:053][195]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.44:076][195]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.44:583][226]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.48:218][459]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.48:712][491]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.48:732][492]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.53:335][783]BlueprintLog: New page: Compile CharacterCreation
+[2015.11.22-13.59.53:443][783]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-13.59.53:446][783]BlueprintEditorCompileResults: Info [1976.09] Compile of CharacterCreation successful! [in 110 ms]
+[2015.11.22-13.59.53:488][783]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-14.00.18:673][902]BlueprintLog: New page: Compile CharacterCreation
+[2015.11.22-14.00.18:842][902]BlueprintEditorCompileResults: Info [2001.49] Compile of CharacterCreation successful! [in 169 ms]
+[2015.11.22-14.00.19:513][927]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-14.00.19:513][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.22-14.00.19:513][927]PIE: New page: PIE session: MainScreen (Nov 22, 2015, 6:00:19 PM)
+[2015.11.22-14.00.19:513][927]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.22-14.00.19:519][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005091s)
+[2015.11.22-14.00.19:519][927]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.22-14.00.19:520][927]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2015.11.22-14.00.19:520][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.006293s)
+[2015.11.22-14.00.19:555][927]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.22-14.00.19:561][927]LogInit: FAudioDevice initialized.
+[2015.11.22-14.00.19:594][927]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.22-14.00.19:598][927]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.22-16.00.19
+[2015.11.22-14.00.19:598][927]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-14.00.19:598][927]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.22-14.00.19:598][927]LogWorld: Bringing up level for play took: 0.003685
+[2015.11.22-14.00.19:602][927]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen -0.384
+[2015.11.22-14.00.19:603][927]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-14.00.29:470][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-14.00.29:520][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/MainScreen.MainScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen' with GeneratedClass '/Game/Scenes/MainScreen.MainScreen_C' with ClassGeneratedBy '/Game/Scenes/MainScreen.MainScreen:PersistentLevel.MainScreen'
+[2015.11.22-14.00.29:550][420]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A726278EA0
+[2015.11.22-14.01.47:164][ 10]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-14.01.47:237][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/Widgets/CharacterCreation" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreation.uasset" SILENT=true
+[2015.11.22-14.01.47:301][ 10]LogSavePackage: Save=20.997332ms
+[2015.11.22-14.01.47:301][ 10]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/CharacterCreation87582EE841ED2E10DDB828841ED158AE.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreation.uasset'
+[2015.11.22-14.01.47:302][ 10]LogSavePackage: Total save time: 65.447919ms
+[2015.11.22-14.01.47:302][ 10]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreation.uasset
+[2015.11.22-14.01.47:309][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/Widgets/CharacterCreatePanel" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreatePanel.uasset" SILENT=true
+[2015.11.22-14.01.47:356][ 10]LogSavePackage: Save=17.947346ms
+[2015.11.22-14.01.47:356][ 10]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/CharacterCreatePanel32EBC9F745010046EBAB5E939AA13716.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreatePanel.uasset'
+[2015.11.22-14.01.47:357][ 10]LogSavePackage: Total save time: 47.611963ms
+[2015.11.22-14.01.47:357][ 10]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreatePanel.uasset
+[2015.11.22-14.02.36:527][562]BlueprintLog: New page: Compile CharacterCreation
+[2015.11.22-14.02.36:673][562]BlueprintEditorCompileResults: Info [2139.32] Compile of CharacterCreation successful! [in 146 ms]
+[2015.11.22-14.02.53:221][558]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-14.03.01:914][134]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-14.03.04:294][291]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-14.03.05:072][341]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CharacterCreation', cached variable property's owner is '/Game/GUI/Widgets/CharacterCreation.SKEL_CharacterCreation_C'
+[2015.11.22-14.03.11:316][759]BlueprintLog: New page: Compile CharacterCreation
+[2015.11.22-14.03.11:412][759]BlueprintEditorCompileResults: Info [2174.06] Compile of CharacterCreation successful! [in 97 ms]
+[2015.11.22-14.04.11:404][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-14.04.11:405][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.11.22-14.04.11:999][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.11.22-14.04.12:555][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.11.22-14.04.13:061][391]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.11.22-14.04.13:583][408]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.11.22-14.04.14:157][428]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.11.22-14.04.14:887][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.11.22-14.04.15:747][490]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.11.22-14.04.17:933][595]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.20:009][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.11.22-14.04.21:161][746]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.21:320][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.11.22-14.04.21:568][757]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.21:988][776]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.11.22-14.04.23:052][822]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.24:170][876]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.26:649][883]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.11.22-14.04.27:572][922]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.29:173][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.11.22-14.04.30:546][987]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.30:680][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.11.22-14.04.31:593][ 32]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.31:689][ 35]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.11.22-14.04.32:020][ 45]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.32:260][ 55]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.11.22-14.04.33:242][ 97]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.33:394][103]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.11.22-14.04.33:870][121]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.33:941][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.11.22-14.04.34:399][140]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.34:475][142]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.11.22-14.04.34:935][159]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.35:008][161]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.11.22-14.04.35:517][181]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.35:570][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.11.22-14.04.36:060][201]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.37:554][202]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.11.22-14.04.39:044][273]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.42:075][279]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.11.22-14.04.43:154][329]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.43:351][340]LogDialogs:Warning: Supressed: Variable Crouching is in use! Do you really want to delete it?
+[2015.11.22-14.04.43:392][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.11.22-14.04.43:837][358]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.43:906][362]LogDialogs:Warning: Supressed: Variable Proning is in use! Do you really want to delete it?
+[2015.11.22-14.04.43:947][362]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.11.22-14.04.44:392][380]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.44:455][384]LogDialogs:Warning: Supressed: Variable MainScreenReference is in use! Do you really want to delete it?
+[2015.11.22-14.04.44:495][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.11.22-14.04.44:945][403]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.45:006][407]LogDialogs:Warning: Supressed: Variable StatuesDebugReference is in use! Do you really want to delete it?
+[2015.11.22-14.04.45:047][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.11.22-14.04.45:514][427]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.45:558][430]LogDialogs:Warning: Supressed: Variable Slowing is in use! Do you really want to delete it?
+[2015.11.22-14.04.45:600][430]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2015.11.22-14.04.46:089][452]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.46:095][453]LogDialogs:Warning: Supressed: Variable Moving? is in use! Do you really want to delete it?
+[2015.11.22-14.04.46:135][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2015.11.22-14.04.46:607][474]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.46:614][475]LogDialogs:Warning: Supressed: Variable CanSprint? is in use! Do you really want to delete it?
+[2015.11.22-14.04.46:651][475]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2015.11.22-14.04.47:113][495]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.47:140][497]LogDialogs:Warning: Supressed: Variable Idle? is in use! Do you really want to delete it?
+[2015.11.22-14.04.47:181][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2015.11.22-14.04.47:677][520]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.04.47:723][521]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2015.11.22-14.05.01:483][267]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2015.11.22-14.05.05:251][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2015.11.22-14.05.33:221][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2015.11.22-14.05.38:317][268]BlueprintLog: New page: Compile CreateManBlueprint
+[2015.11.22-14.05.38:439][268]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2015.11.22-14.05.38:528][268]BlueprintEditorCompileResults: Info [2321.18] Compile of CreateManBlueprint successful! [in 211 ms]
+[2015.11.22-14.05.41:916][473]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'CreateManBlueprint', cached variable property's owner is '/Game/Blueprints/PlayerBlueprint/CreateManBlueprint.SKEL_CreateManBlueprint_C'
+[2015.11.22-14.05.49:775][935]LogEditorViewport: Clicking on Actor (LMB): ManBlueprint_C (ManBlueprint)
+[2015.11.22-14.06.53:006][388]LogEditorViewport: Clicking on Actor (LMB): ManBlueprint_C (ManBlueprint)
+[2015.11.22-14.07.58:140][453]LogEditorViewport: Clicking on Actor (context menu): ManBlueprint_C (ManBlueprint)
+[2015.11.22-14.08.05:815][908]EditorErrors: New page: Actor Reattachment
+[2015.11.22-14.08.08:186][ 30]LogEditorViewport: Clicking on Actor (context menu): CreateManBlueprint_C (ManBlueprint)
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.CollisionCylinder and CapsuleComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Arrow and ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.CharMoveComp and CharacterMovementComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.CharacterMesh0 and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Backpack and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Backpack, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Mask and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Mask, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Goggles and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Goggles, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Hat and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Hat, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Glove and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Glove, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Bottom and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Bottom, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Top and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Top, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Mustache and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Mustache, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Beard and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Beard, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Eye and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Eye, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Shoes and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Shoes, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:164][478]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Hair and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Hair, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:165][478]LogUObjectGlobals:Warning: Guid is in use by CameraComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.Camera and CameraComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Camera, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:165][478]LogUObjectGlobals:Warning: Guid is in use by SpringArmComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.SpringArm and SpringArmComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.SpringArm, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:165][478]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_70.BulletStartPoint and ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.BulletStartPoint, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.15:366][478]EditorErrors: New page: Actor Reattachment
+[2015.11.22-14.08.22:221][928]LogEditorViewport: Clicking on Actor (context menu): CreateManBlueprint_C (ManBlueprint)
+[2015.11.22-14.08.32:828][592]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.CollisionCylinder and CapsuleComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:828][592]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Arrow and ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:828][592]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.CharMoveComp and CharacterMovementComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:828][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.CharacterMesh0 and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:828][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Backpack and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Backpack, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Mask and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Mask, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Goggles and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Goggles, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Hat and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Hat, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Glove and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Glove, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Bottom and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Bottom, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Top and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Top, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Mustache and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Mustache, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Beard and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Beard, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Eye and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Eye, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Shoes and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Shoes, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Hair and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Hair, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by CameraComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.Camera and CameraComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Camera, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by SpringArmComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.SpringArm and SpringArmComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.SpringArm, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.32:829][592]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_122.BulletStartPoint and ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.BulletStartPoint, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.33:017][592]EditorErrors: New page: Actor Reattachment
+[2015.11.22-14.08.36:954][883]Cmd: ACTOR SELECT ALL
+[2015.11.22-14.08.36:980][883]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-14.08.36:981][883]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2015.11.22-14.08.37:187][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/MainScreen" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/MainScreen.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.22-14.08.37:384][883]LogSavePackage: Save=137.584137ms
+[2015.11.22-14.08.37:384][883]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/MainScreen177A49564C8D602D9EE6F0A8AEB9F42A.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/MainScreen.umap'
+[2015.11.22-14.08.37:385][883]LogSavePackage: Total save time: 155.882243ms
+[2015.11.22-14.08.37:385][883]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/MainScreen.umap
+[2015.11.22-14.08.37:431][883]LogFileHelpers: Saving map 'MainScreen' took 0.364
+[2015.11.22-14.08.37:439][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GUI/Widgets/CharacterCreation" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreation.uasset" SILENT=true
+[2015.11.22-14.08.37:477][883]LogSavePackage: Save=20.965334ms
+[2015.11.22-14.08.37:477][883]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/CharacterCreation5A9E6B8F4746330FA865598960D656C8.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreation.uasset'
+[2015.11.22-14.08.37:478][883]LogSavePackage: Total save time: 37.950352ms
+[2015.11.22-14.08.37:478][883]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/GUI/Widgets/CharacterCreation.uasset
+[2015.11.22-14.08.37:506][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint/CreateManBlueprint" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Blueprints/PlayerBlueprint/CreateManBlueprint.uasset" SILENT=true
+[2015.11.22-14.08.37:631][883]LogSavePackage: Save=123.998962ms
+[2015.11.22-14.08.37:631][883]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/CreateManBlueprint0BF70B3F426AC210552D55835F3EBE98.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Blueprints/PlayerBlueprint/CreateManBlueprint.uasset'
+[2015.11.22-14.08.37:632][883]LogSavePackage: Total save time: 125.532102ms
+[2015.11.22-14.08.37:632][883]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Blueprints/PlayerBlueprint/CreateManBlueprint.uasset
+[2015.11.22-14.08.38:620][955]LogEditorViewport: Clicking on Actor (context menu): CreateManBlueprint_C (ManBlueprint)
+[2015.11.22-14.08.40:291][ 65]LogEditorViewport: Clicking on Actor (LMB): CreateManBlueprint_C (ManBlueprint)
+[2015.11.22-14.08.42:227][178]LogEditorViewport: Clicking on Actor (context menu): CreateManBlueprint_C (ManBlueprint)
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.CollisionCylinder and CapsuleComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Arrow and ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.CharMoveComp and CharacterMovementComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.CharacterMesh0 and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Backpack and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Backpack, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Mask and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Mask, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Goggles and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Goggles, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Hat and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Hat, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Glove and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Glove, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Bottom and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Bottom, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Top and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Top, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Mustache and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Mustache, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Beard and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Beard, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Eye and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Eye, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Shoes and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Shoes, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:749][262]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Hair and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Hair, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:750][262]LogUObjectGlobals:Warning: Guid is in use by CameraComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.Camera and CameraComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Camera, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:750][262]LogUObjectGlobals:Warning: Guid is in use by SpringArmComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.SpringArm and SpringArmComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.SpringArm, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:750][262]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_174.BulletStartPoint and ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.BulletStartPoint, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.43:940][262]EditorErrors: New page: Actor Reattachment
+[2015.11.22-14.08.48:405][543]LogEditorViewport: Clicking on Actor (context menu): CreateManBlueprint_C (ManBlueprint)
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.CollisionCylinder and CapsuleComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Arrow and ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.CharMoveComp and CharacterMovementComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.CharacterMesh0 and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Backpack and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Backpack, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Mask and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Mask, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Goggles and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Goggles, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Hat and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Hat, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Glove and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Glove, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Bottom and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Bottom, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Top and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Top, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Mustache and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Mustache, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Beard and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Beard, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Eye and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Eye, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Shoes and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Shoes, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Hair and SkeletalMeshComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Hair, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by CameraComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.Camera and CameraComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.Camera, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by SpringArmComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.SpringArm and SpringArmComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.SpringArm, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:153][ 34]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.ManBlueprint_REPLACED_226.BulletStartPoint and ArrowComponent /Game/Scenes/MainScreen.MainScreen:PersistentLevel.CreateManBlueprint.BulletStartPoint, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.22-14.08.56:352][ 34]EditorErrors: New page: Actor Reattachment
+[2015.11.22-14.09.04:056][582]Cmd: TRANSACTION UNDO
+[2015.11.22-14.09.04:056][582]LogEditorTransaction: Undo Move Actors
+[2015.11.22-14.09.41:222][113]LogEditorActor: Deleted Actor: CreateManBlueprint_C
+[2015.11.22-14.09.41:224][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.22-14.09.41:224][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2015.11.22-14.09.41:332][113]LogEditorActor: Deleted 1 Actors (0.110 secs)
+[2015.11.22-14.09.46:075][113]LogCrashTracker: 
+
+
+[2015.11.22-14.09.46:120][113]LogCrashTracker: 
+
+
+[2015.11.22-14.09.46:120][113]LogWindows: === Critical error: ===
+Fatal error!
+
+
+
+[2015.11.22-14.09.46:245][113]LogExit: Executing StaticShutdownAfterError
+[2015.11.22-14.09.46:264][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:266][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:268][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:269][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:271][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:272][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:274][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:275][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:277][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:278][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:280][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:281][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:283][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:284][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:286][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:287][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:288][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:290][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:292][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:293][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:294][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:295][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:295][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:296][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:296][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:296][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:296][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:297][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:297][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:297][113]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.22-14.09.46:297][113]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.11.22-14.09.46:297][113]Log file closed, 11/22/15 16:09:46
