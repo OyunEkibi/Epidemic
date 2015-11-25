@@ -1,0 +1,993 @@
+﻿[2015.11.18-20.29.52:383][  0]Log file open, 11/18/15 22:29:52
+[2015.11.18-20.29.52:383][  0]LogInit:Display: Running engine for game: Epidemic_Source
+[2015.11.18-20.29.52:383][  0]LogInit:Display: RandInit(-918952127) SRandInit(-918952127).
+[2015.11.18-20.29.52:383][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.18-20.29.52:383][  0]LogStats: Stats thread started at 0.104007
+[2015.11.18-20.29.52:383][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.18-20.29.52:383][  0]LogInit: API Version: 2672455
+[2015.11.18-20.29.52:383][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.18-20.29.52:383][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.18-20.29.52:383][  0]LogInit: Build Configuration: Development
+[2015.11.18-20.29.52:383][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.18-20.29.52:383][  0]LogInit: Command line:  
+[2015.11.18-20.29.52:383][  0]LogInit: Base directory: E:/Programs/EpicGames/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.18-20.29.52:383][  0]LogInit: Rocket: 1
+[2015.11.18-20.29.52:404][  0]LogInit: Using libcurl 7.41.0
+[2015.11.18-20.29.52:404][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.18-20.29.52:404][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.18-20.29.52:404][  0]LogInit:  - other features:
+[2015.11.18-20.29.52:404][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.18-20.29.52:404][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.18-20.29.52:404][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.18-20.29.52:404][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.18-20.29.52:404][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.18-20.29.52:404][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.18-20.29.52:404][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.18-20.29.52:404][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.18-20.29.52:404][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.18-20.29.52:404][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.18-20.29.52:445][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.18-20.29.52:453][  0]LogInit: Object subsystem initialized
+[2015.11.18-20.29.52:454][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.18-20.29.52:454][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.18-20.29.52:469][  0]LogInit: Computer: GRONIA-FERDI
+[2015.11.18-20.29.52:469][  0]LogInit: User: Ferdi
+[2015.11.18-20.29.52:469][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.18-20.29.52:469][  0]LogInit: High frequency timer resolution =3.312802 MHz
+[2015.11.18-20.29.52:469][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2015.11.18-20.29.52:469][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.18-20.29.52:469][  0]LogMemory: Process Physical Memory: 53.79 MB used, 53.79 MB peak
+[2015.11.18-20.29.52:469][  0]LogMemory: Process Virtual Memory: 55.19 MB used, 55.19 MB peak
+[2015.11.18-20.29.52:469][  0]LogMemory: Physical Memory: 2941.79 MB used, 8174.70 MB total
+[2015.11.18-20.29.52:469][  0]LogMemory: Virtual Memory: 364.46 MB used, 134217728.00 MB total
+[2015.11.18-20.29.52:698][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.18-20.29.53:506][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.11.18-20.29.53:506][  0]LogD3D11RHI: Adapter has 3050MB of dedicated video memory, 0MB of dedicated system memory, and 4087MB of shared system memory, 3 output[s]
+[2015.11.18-20.29.53:508][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.18-20.29.53:508][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4087MB of shared system memory, 0 output[s]
+[2015.11.18-20.29.53:508][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.18-20.29.53:510][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.18-20.29.53:510][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.18-20.29.53:516][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.11.18-20.29.53:527][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/EpidemicGameProject/Epidemic_Source/Intermediate/Shaders/WorkingDirectory/5716/).
+[2015.11.18-20.29.53:528][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/EpidemicGameProject/Epidemic_Source/Intermediate/Shaders/tmp/E195E81342C97F710028F392639FA9B7/'.
+[2015.11.18-20.29.53:528][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.18-20.29.55:873][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.18-20.29.55:878][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.18-20.29.55:882][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.18-20.29.55:887][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.18-20.29.55:891][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.18-20.29.55:896][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.18-20.29.55:899][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.18-20.29.55:902][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.18-20.29.55:905][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.18-20.29.55:907][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.18-20.29.55:910][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.18-20.29.55:914][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.18-20.29.55:914][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.18-20.29.55:961][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.18-20.29.55:964][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.18-20.29.55:968][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.18-20.29.55:974][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.18-20.29.55:974][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.18-20.29.56:411][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.18-20.29.57:903][  0]LogDerivedDataCache: Loaded boot cache 1.49s 41MB C:/Users/Ferdi/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.18-20.29.57:903][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ferdi/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.18-20.29.57:903][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/EpidemicGameProject/Epidemic_Source/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.18-20.29.57:903][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.18-20.29.57:903][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/EpidemicGameProject/Epidemic_Source/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.18-20.29.57:903][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.18-20.29.58:068][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.18-20.29.58:080][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ferdi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.18-20.30.02:587][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.18-20.30.02:592][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.18-20.30.02:747][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.18-20.30.02:747][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.18-20.30.03:245][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.18-20.30.05:431][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.18-20.30.05:581][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.11.18-20.30.05:829][  0]SourceControl: Info Source control is disabled
+[2015.11.18-20.30.06:292][  0]SourceControl: Info Source control is disabled
+[2015.11.18-20.30.06:299][  0]SourceControl: Info Source control is disabled
+[2015.11.18-20.30.06:313][  0]SourceControl: Info Source control is disabled
+[2015.11.18-20.30.06:517][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.18-20.30.06:647][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.18-20.30.06:647][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.11.18-20.30.06:714][  0]LogEngine: Initializing Engine...
+[2015.11.18-20.30.06:718][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.18-20.30.06:744][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.18-20.30.06:978][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.18-20.30.06:985][  0]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.18-20.30.06:992][  0]LogInit: FAudioDevice initialized.
+[2015.11.18-20.30.07:009][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Ferdi/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.18-20.30.07:016][  0]LogInit: Texture streaming: Enabled
+[2015.11.18-20.30.07:021][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.18-20.30.07:021][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.18-20.30.07:021][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 4d6edf494aaa6366e0fc9cbfe9311ea0|29085979fd9e49d891c67b2b1d3c3f13|3c529454-2f3a-4a5c-9d67-9588c1286bf3
+[2015.11.18-20.30.07:021][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.18-20.30.07:031][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.18-20.30.07:053][  0]LogInit: Transaction tracking system initialized
+[2015.11.18-20.30.07:078][  0]BlueprintLog: New page: Editor Load
+[2015.11.18-20.30.07:201][  0]LocalizationService: Info Localization service is disabled
+[2015.11.18-20.30.07:301][  0]LogConsoleResponse:Display: 
+[2015.11.18-20.30.07:589][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.18-20.30.07:705][  0]LogFileCache: Scanning file cache for directory 'D:/EpidemicGameProject/Epidemic_Source/Content/' took 0.02s
+[2015.11.18-20.30.07:705][  0]SourceControl: Info Source control is disabled
+[2015.11.18-20.30.07:706][  0]Cmd: MAP LOAD FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.18-20.30.07:804][  0]LightingResults: New page: Lighting Build
+[2015.11.18-20.30.07:809][  0]MapCheck: New page: Map Check
+[2015.11.18-20.30.07:809][  0]LightingResults: New page: Lighting Build
+[2015.11.18-20.30.07:820][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA4130A160
+[2015.11.18-20.30.09:177][  0]LogAIModule: Creating AISystem for world test
+[2015.11.18-20.30.09:185][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.18-20.30.09:186][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.18-20.30.09:247][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.352ms to complete.
+[2015.11.18-20.30.09:247][  0]LogFileHelpers: Loading map 'test' took 1.541
+[2015.11.18-20.30.09:406][  0]LogCollectionManager: Loaded 0 collections in 0.002223 seconds
+[2015.11.18-20.30.09:449][  0]LogFileCache: Scanning file cache for directory 'D:/EpidemicGameProject/Epidemic_Source/Saved/Collections/' took 0.01s
+[2015.11.18-20.30.09:449][  0]LogFileCache: Scanning file cache for directory 'D:/EpidemicGameProject/Epidemic_Source/Content/Developers/Ferdi/Collections/' took 0.01s
+[2015.11.18-20.30.09:449][  0]LogFileCache: Scanning file cache for directory 'D:/EpidemicGameProject/Epidemic_Source/Content/Collections/' took 0.01s
+[2015.11.18-20.30.09:449][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 1867 classes and 333 folders.
+[2015.11.18-20.30.09:465][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.11.18-20.30.09:472][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.18-20.30.09:801][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.18-20.30.09:804][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.11.18-20.30.09:882][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.18-20.30.09:886][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.18-20.30.09:911][  0]LogLoad: Full Startup: 18.72 seconds (BP compile: 0.24 seconds)
+[2015.11.18-20.30.10:011][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.18-20.30.10:162][  0]LogRenderer: Reallocating scene render targets to support 1176x576 (Frame:2).
+[2015.11.18-20.30.10:872][  6]LogAssetRegistry: Asset discovery search completed in 5.3025 seconds
+[2015.11.18-20.30.10:872][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.18-20.30.10:872][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2015.11.18-20.30.13:533][251]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.18-20.30.14:174][251]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.11.18-20.34.05:690][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/OptionsPanel" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset" SILENT=true
+[2015.11.18-20.34.05:742][588]LogSavePackage: Save=11.953325ms
+[2015.11.18-20.34.05:742][588]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/OptionsPanel34833DD24BCC1D1F5E815EB56A3AFF4E.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset'
+[2015.11.18-20.34.05:766][588]LogSavePackage: Total save time: 74.577052ms
+[2015.11.18-20.34.05:766][588]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset
+[2015.11.18-20.34.07:068][669]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-20.34.07:146][669]BlueprintEditorCompileResults: Info [0255.95] Compile of OptionsPanel successful! [in 77 ms]
+[2015.11.18-20.34.18:573][373]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-20.34.18:651][373]BlueprintEditorCompileResults: Info [0267.46] Compile of OptionsPanel successful! [in 78 ms]
+[2015.11.18-20.36.44:151][214]LogEditorTransaction: Undo Move Widget
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.HorizontalBox_160
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Engine/Transient.World_7:OptionsPanel_C_16.WidgetTree_103.HorizontalBox_160
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Engine/Transient.World_7:OptionsPanel_C_17.WidgetTree_105.HorizontalBox_160
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_106.HorizontalBox_160
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Engine/Transient.World_7:OptionsPanel_C_18.WidgetTree_107.HorizontalBox_160
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_108.HorizontalBox_160
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Engine/Transient.World_7:OptionsPanel_C_19.WidgetTree_109.HorizontalBox_160
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_110.HorizontalBox_160
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Engine/Transient.World_7:OptionsPanel_C_20.WidgetTree_111.HorizontalBox_160
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_116.HorizontalBox_160
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Engine/Transient.World_7:OptionsPanel_C_21.WidgetTree_117.HorizontalBox_160
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160.HorizontalBoxSlot_26 or HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.HorizontalBox_160.HorizontalBoxSlot_26
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160.HorizontalBoxSlot_26 or HorizontalBoxSlot /Engine/Transient.World_7:OptionsPanel_C_17.WidgetTree_105.HorizontalBox_160.HorizontalBoxSlot_26
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160.HorizontalBoxSlot_26 or HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_106.HorizontalBox_160.HorizontalBoxSlot_26
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160.HorizontalBoxSlot_26 or HorizontalBoxSlot /Engine/Transient.World_7:OptionsPanel_C_18.WidgetTree_107.HorizontalBox_160.HorizontalBoxSlot_26
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160.HorizontalBoxSlot_26 or HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_108.HorizontalBox_160.HorizontalBoxSlot_26
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160.HorizontalBoxSlot_26 or HorizontalBoxSlot /Engine/Transient.World_7:OptionsPanel_C_19.WidgetTree_109.HorizontalBox_160.HorizontalBoxSlot_26
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160.HorizontalBoxSlot_26 or HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_110.HorizontalBox_160.HorizontalBoxSlot_26
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160.HorizontalBoxSlot_26 or HorizontalBoxSlot /Engine/Transient.World_7:OptionsPanel_C_20.WidgetTree_111.HorizontalBox_160.HorizontalBoxSlot_26
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160.HorizontalBoxSlot_26 or HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_116.HorizontalBox_160.HorizontalBoxSlot_26
+[2015.11.18-20.36.54:079][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160.HorizontalBoxSlot_26 or HorizontalBoxSlot /Engine/Transient.World_7:OptionsPanel_C_21.WidgetTree_117.HorizontalBox_160.HorizontalBoxSlot_26
+[2015.11.18-20.36.54:079][804]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160.HorizontalBoxSlot_26) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_290).  Import failed...
+[2015.11.18-20.36.54:079][804]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_160.HorizontalBoxSlot_26''
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.HorizontalBox_160
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Engine/Transient.World_7:OptionsPanel_C_16.WidgetTree_103.HorizontalBox_160
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_104.HorizontalBox_160
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Engine/Transient.World_7:OptionsPanel_C_17.WidgetTree_105.HorizontalBox_160
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_106.HorizontalBox_160
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Engine/Transient.World_7:OptionsPanel_C_18.WidgetTree_107.HorizontalBox_160
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_108.HorizontalBox_160
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Engine/Transient.World_7:OptionsPanel_C_19.WidgetTree_109.HorizontalBox_160
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_110.HorizontalBox_160
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Engine/Transient.World_7:OptionsPanel_C_20.WidgetTree_111.HorizontalBox_160
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_116.HorizontalBox_160
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_102.HorizontalBox_160 or HorizontalBox /Engine/Transient.World_7:OptionsPanel_C_21.WidgetTree_117.HorizontalBox_160
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.HorizontalBox_160.HorizontalBoxSlot_27 or HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_106.HorizontalBox_160.HorizontalBoxSlot_27
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.HorizontalBox_160.HorizontalBoxSlot_27 or HorizontalBoxSlot /Engine/Transient.World_7:OptionsPanel_C_18.WidgetTree_107.HorizontalBox_160.HorizontalBoxSlot_27
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.HorizontalBox_160.HorizontalBoxSlot_27 or HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_108.HorizontalBox_160.HorizontalBoxSlot_27
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.HorizontalBox_160.HorizontalBoxSlot_27 or HorizontalBoxSlot /Engine/Transient.World_7:OptionsPanel_C_19.WidgetTree_109.HorizontalBox_160.HorizontalBoxSlot_27
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.HorizontalBox_160.HorizontalBoxSlot_27 or HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_110.HorizontalBox_160.HorizontalBoxSlot_27
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.HorizontalBox_160.HorizontalBoxSlot_27 or HorizontalBoxSlot /Engine/Transient.World_7:OptionsPanel_C_20.WidgetTree_111.HorizontalBox_160.HorizontalBoxSlot_27
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.HorizontalBox_160.HorizontalBoxSlot_27 or HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_116.HorizontalBox_160.HorizontalBoxSlot_27
+[2015.11.18-20.36.54:080][804]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.HorizontalBox_160.HorizontalBoxSlot_27 or HorizontalBoxSlot /Engine/Transient.World_7:OptionsPanel_C_21.WidgetTree_117.HorizontalBox_160.HorizontalBoxSlot_27
+[2015.11.18-20.36.54:080][804]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.HorizontalBox_160.HorizontalBoxSlot_27) from referencer (CheckBox /Engine/UMG/Editor/Transient.CheckBox_78).  Import failed...
+[2015.11.18-20.36.54:080][804]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_160.HorizontalBoxSlot_27''
+[2015.11.18-20.38.23:202][ 24]LogEditorTransaction: Undo Edit Size Rule
+[2015.11.18-20.39.19:483][966]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-20.39.19:846][995]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-20.39.20:357][ 43]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-20.39.20:373][ 44]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-20.40.50:509][ 79]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-20.40.50:605][ 79]BlueprintEditorCompileResults: Info [0659.41] Compile of OptionsPanel successful! [in 96 ms]
+[2015.11.18-20.42.30:093][156]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-20.42.30:177][156]BlueprintEditorCompileResults: Info [0758.98] Compile of OptionsPanel successful! [in 82 ms]
+[2015.11.18-20.42.48:559][437]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-20.42.49:054][473]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-20.42.49:706][530]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-20.42.49:724][531]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-20.43.27:390][889]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-20.43.27:469][889]BlueprintEditorCompileResults: Info [0816.28] Compile of OptionsPanel successful! [in 79 ms]
+[2015.11.18-20.43.56:836][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/OptionsPanel" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset" SILENT=true
+[2015.11.18-20.43.56:872][885]LogSavePackage: Save=25.098995ms
+[2015.11.18-20.43.56:872][885]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/OptionsPanelD72927614E884BC89BFB5782B3A89273.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset'
+[2015.11.18-20.43.56:874][885]LogSavePackage: Total save time: 36.484219ms
+[2015.11.18-20.43.56:874][885]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset
+[2015.11.18-20.44.01:385][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_10.WidgetTree_91.SizeBox_34
+[2015.11.18-20.44.01:385][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_0.WidgetTree_71.SizeBox_34
+[2015.11.18-20.44.01:385][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.TRASHCLASS_OptionsPanel_90:SizeBox_34
+[2015.11.18-20.44.01:385][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_9.WidgetTree_178.SizeBox_34
+[2015.11.18-20.44.01:385][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_8.WidgetTree_87.SizeBox_34
+[2015.11.18-20.44.01:385][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_2.WidgetTree_46.SizeBox_34
+[2015.11.18-20.44.01:385][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_3.WidgetTree_48.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.REINST_OptionsPanel_C_16:WidgetTree_32.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_1.WidgetTree_81.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_4.WidgetTree_50.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.REINST_OptionsPanel_C_18:WidgetTree_69.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_5.WidgetTree_52.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_6.WidgetTree_54.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_7.WidgetTree_56.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_11.WidgetTree_186.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_12.WidgetTree_95.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_13.WidgetTree_97.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_25.WidgetTree_213.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_15.WidgetTree_101.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_14.WidgetTree_188.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_17.WidgetTree_105.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_18.WidgetTree_107.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.REINST_OptionsPanel_C_50:WidgetTree_203.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_37.WidgetTree_223.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_16.WidgetTree_190.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_233.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_244.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_36.WidgetTree_221.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_22.WidgetTree_121.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Game/Widgets/OptionsPanel.OptionsPanel_C:WidgetTree_242.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_23.WidgetTree_123.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_35.WidgetTree_219.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_24.WidgetTree_125.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_38.WidgetTree_243.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_19.WidgetTree_192.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_34.WidgetTree_217.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_26.WidgetTree_133.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_27.WidgetTree_137.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_33.WidgetTree_215.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_28.WidgetTree_139.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.REINST_OptionsPanel_C_46:WidgetTree_176.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_29.WidgetTree_141.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:REINST_OptionsPanel_C_2.WidgetTree_194.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_30.WidgetTree_143.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_39.WidgetTree_245.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:OptionsPanel_C_31.WidgetTree_145.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.World_7:REINST_OptionsPanel_C_0.WidgetTree_147.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogUObjectHash:Warning: Ambiguous search, could be SizeBox /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34 or SizeBox /Engine/Transient.REINST_OptionsPanel_C_39:WidgetTree_79.SizeBox_34
+[2015.11.18-20.44.01:386][218]LogProperty:Warning: Illegal TEXT reference to a private object in external package (SizeBoxSlot /Game/Widgets/OptionsPanel.OptionsPanel:WidgetTree.SizeBox_34.SizeBoxSlot_95) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_48).  Import failed...
+[2015.11.18-20.44.01:386][218]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'SizeBoxSlot'SizeBox_34.SizeBoxSlot_95''
+[2015.11.18-20.44.54:421][405]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-20.44.54:499][405]BlueprintEditorCompileResults: Info [0903.31] Compile of OptionsPanel successful! [in 78 ms]
+[2015.11.18-20.46.10:377][314]BlueprintLog: New page: Compile MainMenuWidget
+[2015.11.18-20.46.10:553][314]BlueprintEditorCompileResults: Info [0979.36] Compile of MainMenuWidget successful! [in 175 ms]
+[2015.11.18-20.46.11:191][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MainMenuWidget" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuWidget.uasset" SILENT=true
+[2015.11.18-20.46.11:226][366]LogSavePackage: Save=23.752703ms
+[2015.11.18-20.46.11:226][366]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/MainMenuWidget62AD385A47DF87DBB354E0A2BC707916.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuWidget.uasset'
+[2015.11.18-20.46.11:227][366]LogSavePackage: Total save time: 35.644751ms
+[2015.11.18-20.46.11:227][366]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuWidget.uasset
+[2015.11.18-20.46.11:235][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/OptionsPanel" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset" SILENT=true
+[2015.11.18-20.46.11:269][366]LogSavePackage: Save=26.531618ms
+[2015.11.18-20.46.11:269][366]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/OptionsPanel856EBF424BE34B7632CD779F55BA5126.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset'
+[2015.11.18-20.46.11:271][366]LogSavePackage: Total save time: 35.281613ms
+[2015.11.18-20.46.11:271][366]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset
+[2015.11.18-20.46.22:279][261]BlueprintLog: New page: Compile MainMenuWidget
+[2015.11.18-20.46.22:284][261]LogBlueprint:Error: [compiler MainMenuWidget] Error The type of  Object  is undetermined.  Connect something to  Cast To OptionsPanel  to imply a specific type.
+[2015.11.18-20.46.22:288][261]LogBlueprint:Error: [compiler MainMenuWidget] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2015.11.18-20.46.22:410][261]LogBlueprint:Warning: [compiler MainMenuWidget] Warning [0991.22] Compile of MainMenuWidget failed. 2 Fatal Issue(s) 0 Warning(s) [in 129 ms]
+[2015.11.18-20.46.22:410][261]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To OptionsPanel  to imply a specific type.
+[2015.11.18-20.46.22:410][261]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2015.11.18-20.46.22:410][261]BlueprintEditorCompileResults:Warning: Warning [0991.22] Compile of MainMenuWidget failed. 2 Fatal Issue(s) 0 Warning(s) [in 129 ms]
+[2015.11.18-20.47.02:009][858]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/test' took 0.025
+[2015.11.18-20.47.02:015][858]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/MainMenuWidget] ([1] browsable assets)...
+[2015.11.18-20.47.02:015][858]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/MainMenuWidget]
+[2015.11.18-20.47.02:015][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MainMenuWidget" FILE="D:/EpidemicGameProject/Epidemic_Source/Saved/Autosaves/Game/Widgets/MainMenuWidget_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.11.18-20.47.02:042][858]LogSavePackage: Save=16.412390ms
+[2015.11.18-20.47.02:042][858]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/MainMenuWidget_Auto14FF834634D908605784A22B16AB3F73F.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Saved/Autosaves/Game/Widgets/MainMenuWidget_Auto1.uasset'
+[2015.11.18-20.47.02:043][858]LogSavePackage: Total save time: 26.294358ms
+[2015.11.18-20.47.02:043][858]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Saved/Autosaves/Game/Widgets/MainMenuWidget_Auto1.uasset
+[2015.11.18-20.47.02:043][858]LogFileHelpers: Auto-saving content packages took 0.033
+[2015.11.18-20.47.13:010][909]BlueprintLog: New page: Compile MainMenuWidget
+[2015.11.18-20.47.13:090][909]BlueprintEditorCompileResults: Info [1041.90] Compile of MainMenuWidget successful! [in 80 ms]
+[2015.11.18-20.47.20:539][484]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.47.28:196][192]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.47.29:884][353]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.47.29:900][353]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.47.30:736][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MainMenuWidget" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuWidget.uasset" SILENT=true
+[2015.11.18-20.47.30:760][416]LogSavePackage: Save=16.123814ms
+[2015.11.18-20.47.30:760][416]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/MainMenuWidget40965029435EFD11B22E098F4640392E.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuWidget.uasset'
+[2015.11.18-20.47.30:761][416]LogSavePackage: Total save time: 24.703257ms
+[2015.11.18-20.47.30:761][416]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuWidget.uasset
+[2015.11.18-20.47.42:640][526]BlueprintLog: New page: Compile MainMenuWidget
+[2015.11.18-20.47.42:735][526]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.47.42:738][526]BlueprintEditorCompileResults: Info [1071.54] Compile of MainMenuWidget successful! [in 97 ms]
+[2015.11.18-20.47.42:756][526]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.48.25:337][758]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.48.32:312][356]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.48.42:851][315]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.48.43:451][360]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.48.44:144][418]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.48.44:157][419]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.50.37:746][ 62]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.50.39:985][252]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.50.40:545][298]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.50.40:559][299]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.51.23:763][102]BlueprintLog: New page: Compile MainMenuElements
+[2015.11.18-20.51.23:990][102]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.51.24:038][102]BlueprintEditorCompileResults: Info [1292.84] Compile of MainMenuElements successful! [in 274 ms]
+[2015.11.18-20.51.27:057][316]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.51.32:906][819]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuElements.MainMenuElements_C'
+[2015.11.18-20.51.50:435][221]BlueprintLog: New page: Compile MainMenuWidget
+[2015.11.18-20.51.50:592][221]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuElements.MainMenuElements_C'
+[2015.11.18-20.51.50:594][221]BlueprintEditorCompileResults: Info [1319.40] Compile of MainMenuWidget successful! [in 159 ms]
+[2015.11.18-20.51.50:613][221]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuElements.MainMenuElements_C'
+[2015.11.18-20.52.04:954][433]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Script/UMG.Button'
+[2015.11.18-20.53.55:827][760]BlueprintLog: New page: Compile MainMenuWidget
+[2015.11.18-20.53.55:929][760]BlueprintEditorCompileResults: Info [1444.74] Compile of MainMenuWidget successful! [in 101 ms]
+[2015.11.18-20.53.59:177][ 53]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.54.00:091][126]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.54.03:541][388]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.54.06:151][616]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.54.07:741][739]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.54.07:756][740]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MainMenuWidget', cached variable property's owner is '/Game/Widgets/MainMenuWidget.SKEL_MainMenuWidget_C'
+[2015.11.18-20.54.13:800][257]BlueprintLog: New page: Compile MainMenuWidget
+[2015.11.18-20.54.13:903][257]BlueprintEditorCompileResults: Info [1462.71] Compile of MainMenuWidget successful! [in 103 ms]
+[2015.11.18-20.54.14:567][308]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/test.test:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/test.test:PersistentLevel.test' with GeneratedClass '/Game/Scenes/test.test_C' with ClassGeneratedBy '/Game/Scenes/test.test:PersistentLevel.test'
+[2015.11.18-20.54.14:567][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.18-20.54.14:567][308]PIE: New page: PIE session: test (Nov 19, 2015, 12:54:14 AM)
+[2015.11.18-20.54.14:567][308]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_test
+[2015.11.18-20.54.14:573][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005220s)
+[2015.11.18-20.54.14:573][308]LogAIModule: Creating AISystem for world test
+[2015.11.18-20.54.14:573][308]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2015.11.18-20.54.14:573][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/test.test to /Game/Scenes/UEDPIE_0_test.test (0.006122s)
+[2015.11.18-20.54.14:603][308]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.18-20.54.14:610][308]LogInit: FAudioDevice initialized.
+[2015.11.18-20.54.14:665][308]LogWorld: Game class is 'EpidemicGameMode_C'
+[2015.11.18-20.54.14:668][308]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_test.test up for play (max tick rate 0) at 2015.11.18-22.54.14
+[2015.11.18-20.54.14:668][308]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_test.test:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.54.14:668][308]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_test.test:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.54.14:668][308]LogWorld: Bringing up level for play took: 0.002239
+[2015.11.18-20.54.14:671][308]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_test 0.499
+[2015.11.18-20.54.14:672][308]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/test.test:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/test.test:PersistentLevel.test' with GeneratedClass '/Game/Scenes/test.test_C' with ClassGeneratedBy '/Game/Scenes/test.test:PersistentLevel.test'
+[2015.11.18-20.54.15:746][384]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/test.test:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/test.test:PersistentLevel.test' with GeneratedClass '/Game/Scenes/test.test_C' with ClassGeneratedBy '/Game/Scenes/test.test:PersistentLevel.test'
+[2015.11.18-20.54.15:787][384]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/test.test:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/test.test:PersistentLevel.test' with GeneratedClass '/Game/Scenes/test.test_C' with ClassGeneratedBy '/Game/Scenes/test.test:PersistentLevel.test'
+[2015.11.18-20.54.15:818][384]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA18EE60C0
+[2015.11.18-20.54.18:856][568]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/test.test:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/test.test:PersistentLevel.test' with GeneratedClass '/Game/Scenes/test.test_C' with ClassGeneratedBy '/Game/Scenes/test.test:PersistentLevel.test'
+[2015.11.18-20.54.18:856][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.18-20.54.18:856][568]PIE: New page: PIE session: test (Nov 19, 2015, 12:54:18 AM)
+[2015.11.18-20.54.18:856][568]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_test
+[2015.11.18-20.54.18:861][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005067s)
+[2015.11.18-20.54.18:862][568]LogAIModule: Creating AISystem for world test
+[2015.11.18-20.54.18:862][568]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2015.11.18-20.54.18:862][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/test.test to /Game/Scenes/UEDPIE_0_test.test (0.005870s)
+[2015.11.18-20.54.18:891][568]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.18-20.54.18:896][568]LogInit: FAudioDevice initialized.
+[2015.11.18-20.54.18:932][568]LogWorld: Game class is 'EpidemicGameMode_C'
+[2015.11.18-20.54.18:936][568]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_test.test up for play (max tick rate 0) at 2015.11.18-22.54.18
+[2015.11.18-20.54.18:936][568]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_test.test:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.54.18:936][568]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_test.test:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.54.18:936][568]LogWorld: Bringing up level for play took: 0.002292
+[2015.11.18-20.54.18:939][568]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_test 0.766
+[2015.11.18-20.54.18:939][568]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/test.test:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/test.test:PersistentLevel.test' with GeneratedClass '/Game/Scenes/test.test_C' with ClassGeneratedBy '/Game/Scenes/test.test:PersistentLevel.test'
+[2015.11.18-20.54.20:638][701]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/test.test:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/test.test:PersistentLevel.test' with GeneratedClass '/Game/Scenes/test.test_C' with ClassGeneratedBy '/Game/Scenes/test.test:PersistentLevel.test'
+[2015.11.18-20.54.20:675][701]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/test.test:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/test.test:PersistentLevel.test' with GeneratedClass '/Game/Scenes/test.test_C' with ClassGeneratedBy '/Game/Scenes/test.test:PersistentLevel.test'
+[2015.11.18-20.54.20:700][701]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA19C15580
+[2015.11.18-20.54.24:453][  7]LogAIModule: Creating AISystem for world Intro
+[2015.11.18-20.54.25:810][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MainMenuElements" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuElements.uasset" SILENT=true
+[2015.11.18-20.54.25:838][  7]LogSavePackage: Save=15.471797ms
+[2015.11.18-20.54.25:838][  7]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/MainMenuElementsF17562E949B338D46204F089DDC09814.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuElements.uasset'
+[2015.11.18-20.54.25:840][  7]LogSavePackage: Total save time: 28.206334ms
+[2015.11.18-20.54.25:840][  7]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuElements.uasset
+[2015.11.18-20.54.25:844][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MainMenuWidget" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuWidget.uasset" SILENT=true
+[2015.11.18-20.54.25:877][  7]LogSavePackage: Save=22.803959ms
+[2015.11.18-20.54.25:877][  7]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/MainMenuWidget0CECE5D04D4A017555446284735319F8.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuWidget.uasset'
+[2015.11.18-20.54.25:879][  7]LogSavePackage: Total save time: 34.226615ms
+[2015.11.18-20.54.25:879][  7]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuWidget.uasset
+[2015.11.18-20.54.25:880][  7]Cmd: MAP LOAD FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/Intro.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.18-20.54.25:880][  7]LightingResults: New page: Lighting Build
+[2015.11.18-20.54.25:898][  7]LoadErrors: New page: Loading map: Intro.umap
+[2015.11.18-20.54.25:899][  7]MapCheck: New page: Map Check
+[2015.11.18-20.54.25:899][  7]LightingResults: New page: Lighting Build
+[2015.11.18-20.54.25:930][  7]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA3017CAE0
+[2015.11.18-20.54.25:991][  7]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.18-20.54.26:030][  7]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.18-20.54.26:084][  7]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.88ms to complete.
+[2015.11.18-20.54.26:085][  7]LogFileHelpers: Loading map 'Intro' took 0.206
+[2015.11.18-20.54.26:767][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/Intro.Intro:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Intro.Intro:PersistentLevel.Intro' with GeneratedClass '/Game/Scenes/Intro.Intro_C' with ClassGeneratedBy '/Game/Scenes/Intro.Intro:PersistentLevel.Intro'
+[2015.11.18-20.54.26:767][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.18-20.54.26:767][ 59]PIE: New page: PIE session: Intro (Nov 19, 2015, 12:54:26 AM)
+[2015.11.18-20.54.26:767][ 59]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Intro
+[2015.11.18-20.54.26:769][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002674s)
+[2015.11.18-20.54.26:770][ 59]LogAIModule: Creating AISystem for world Intro
+[2015.11.18-20.54.26:770][ 59]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2015.11.18-20.54.26:770][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Intro.Intro to /Game/Scenes/UEDPIE_0_Intro.Intro (0.003436s)
+[2015.11.18-20.54.26:798][ 59]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.18-20.54.26:804][ 59]LogInit: FAudioDevice initialized.
+[2015.11.18-20.54.26:842][ 59]LogWorld: Game class is 'IntroGameMode_C'
+[2015.11.18-20.54.26:844][ 59]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Intro.Intro up for play (max tick rate 0) at 2015.11.18-22.54.26
+[2015.11.18-20.54.26:844][ 59]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_Intro.Intro:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.54.26:844][ 59]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_Intro.Intro:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.54.26:844][ 59]LogWorld: Bringing up level for play took: 0.000729
+[2015.11.18-20.54.26:848][ 59]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Intro 0.676
+[2015.11.18-20.54.26:848][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/Intro.Intro:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Intro.Intro:PersistentLevel.Intro' with GeneratedClass '/Game/Scenes/Intro.Intro_C' with ClassGeneratedBy '/Game/Scenes/Intro.Intro:PersistentLevel.Intro'
+[2015.11.18-20.54.30:773][380]LogPackageName: SearchForPackageOnDisk took   0.050s to resolve MainScreen.umap.
+[2015.11.18-20.54.30:830][381]LogPackageName: SearchForPackageOnDisk took   0.046s to resolve MainScreen.umap.
+[2015.11.18-20.54.30:830][381]LogNet: Browse: /Game/Scenes/MainScreen
+[2015.11.18-20.54.30:831][381]LogLoad: LoadMap: /Game/Scenes/MainScreen
+[2015.11.18-20.54.30:858][381]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA317CD800
+[2015.11.18-20.54.30:861][381]Cmd: MEM
+[2015.11.18-20.54.30:885][381]LogMemory: Platform Memory Stats for Windows
+[2015.11.18-20.54.30:885][381]LogMemory: Process Physical Memory: 1034.39 MB used, 1035.21 MB peak
+[2015.11.18-20.54.30:885][381]LogMemory: Process Virtual Memory: 2041.15 MB used, 2076.24 MB peak
+[2015.11.18-20.54.30:885][381]LogMemory: Physical Memory: 3918.23 MB used, 8174.70 MB total
+[2015.11.18-20.54.30:885][381]LogMemory: Virtual Memory: 2759.26 MB used, 134217728.00 MB total
+[2015.11.18-20.54.30:885][381]LogMemory: 
+[2015.11.18-20.54.30:885][381]Allocator Stats for TBB: (not implemented)
+[2015.11.18-20.54.31:271][381]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.18-20.54.31:271][381]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.18-20.54.31:278][381]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.18-22.54.31
+[2015.11.18-20.54.31:278][381]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.54.31:278][381]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.54.31:279][381]LogWorld: Bringing up level for play took: 0.005241
+[2015.11.18-20.54.31:293][381]LogScriptCore: Script call stack:
+	Function /Game/Widgets/OptionsPanel.OptionsPanel_C:Get_ShadowOnCheckBox_CheckedState_0
+
+[2015.11.18-20.54.31:294][381]LogScript:Warning: Infinite script recursion (250 calls) detected
+	OptionsPanel_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.MainMenuWidget_C_10.WidgetTree_673.OptionsPanel_135
+	Function /Game/Widgets/OptionsPanel.OptionsPanel_C:Get_ShadowOnCheckBox_CheckedState_0:0000
+[2015.11.18-20.54.31:295][381]PIE:Error: Error Infinite Loop detected in  OptionsPanel , asserted during  Get Shadow on Check Box Checked State 0 with the following  Call Stack
+[2015.11.18-20.54.31:302][381]LogScriptCore: Script call stack:
+	Function /Game/Widgets/OptionsPanel.OptionsPanel_C:Get_ShadowOnCheckBox_CheckedState_0
+
+[2015.11.18-20.54.31:302][381]LogScript:Warning: Infinite script recursion (250 calls) detected
+	OptionsPanel_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.MainMenuWidget_C_10.WidgetTree_673.OptionsPanel_135
+	Function /Game/Widgets/OptionsPanel.OptionsPanel_C:Get_ShadowOnCheckBox_CheckedState_0:0000
+[2015.11.18-20.54.31:302][381]PIE:Error: Error Infinite Loop detected in  OptionsPanel , asserted during  Get Shadow on Check Box Checked State 0 with the following  Call Stack
+[2015.11.18-20.54.31:328][382]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/Intro.Intro:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Intro.Intro:PersistentLevel.Intro' with GeneratedClass '/Game/Scenes/Intro.Intro_C' with ClassGeneratedBy '/Game/Scenes/Intro.Intro:PersistentLevel.Intro'
+[2015.11.18-20.54.31:361][382]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/Intro.Intro:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Intro.Intro:PersistentLevel.Intro' with GeneratedClass '/Game/Scenes/Intro.Intro_C' with ClassGeneratedBy '/Game/Scenes/Intro.Intro:PersistentLevel.Intro'
+[2015.11.18-20.54.31:389][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA806AF880
+[2015.11.18-20.54.40:984][232]Cmd: MAP LOAD FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/Intro.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.18-20.54.40:984][232]LightingResults: New page: Lighting Build
+[2015.11.18-20.54.41:001][232]LoadErrors: New page: Loading map: Intro.umap
+[2015.11.18-20.54.41:001][232]MapCheck: New page: Map Check
+[2015.11.18-20.54.41:001][232]LightingResults: New page: Lighting Build
+[2015.11.18-20.54.41:030][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA4A6BB1A0
+[2015.11.18-20.54.41:057][232]LogAIModule: Creating AISystem for world Intro
+[2015.11.18-20.54.41:123][232]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.18-20.54.41:162][232]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.18-20.54.41:216][232]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.785ms to complete.
+[2015.11.18-20.54.41:217][232]LogFileHelpers: Loading map 'Intro' took 0.235
+[2015.11.18-20.54.52:957][248]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.18-20.54.52:960][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.18-20.54.52:989][248]Cmd: MAP LOAD FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/MainScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.18-20.54.52:989][248]LightingResults: New page: Lighting Build
+[2015.11.18-20.54.53:009][248]LoadErrors: New page: Loading map: MainScreen.umap
+[2015.11.18-20.54.53:052][248]MapCheck: New page: Map Check
+[2015.11.18-20.54.53:052][248]LightingResults: New page: Lighting Build
+[2015.11.18-20.54.53:074][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA18EE7EC0
+[2015.11.18-20.54.53:075][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA40C04360
+[2015.11.18-20.54.53:173][248]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.18-20.54.53:209][248]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.18-20.54.53:267][248]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.346ms to complete.
+[2015.11.18-20.54.53:267][248]LogFileHelpers: Loading map 'MainScreen' took 0.279
+[2015.11.18-20.55.05:252][957]LogAIModule: Creating AISystem for world Intro
+[2015.11.18-20.55.05:281][957]Cmd: MAP LOAD FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/Intro.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.18-20.55.05:282][957]LightingResults: New page: Lighting Build
+[2015.11.18-20.55.05:300][957]LoadErrors: New page: Loading map: Intro.umap
+[2015.11.18-20.55.05:301][957]MapCheck: New page: Map Check
+[2015.11.18-20.55.05:301][957]LightingResults: New page: Lighting Build
+[2015.11.18-20.55.05:332][957]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA0EBC56C0
+[2015.11.18-20.55.05:383][957]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.18-20.55.05:422][957]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.18-20.55.05:476][957]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.971ms to complete.
+[2015.11.18-20.55.05:477][957]LogFileHelpers: Loading map 'Intro' took 0.197
+[2015.11.18-20.55.06:471][ 11]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/Intro.Intro:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Intro.Intro:PersistentLevel.Intro' with GeneratedClass '/Game/Scenes/Intro.Intro_C' with ClassGeneratedBy '/Game/Scenes/Intro.Intro:PersistentLevel.Intro'
+[2015.11.18-20.55.06:472][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.18-20.55.06:472][ 11]PIE: New page: PIE session: Intro (Nov 19, 2015, 12:55:06 AM)
+[2015.11.18-20.55.06:472][ 11]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Intro
+[2015.11.18-20.55.06:474][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002628s)
+[2015.11.18-20.55.06:475][ 11]LogAIModule: Creating AISystem for world Intro
+[2015.11.18-20.55.06:475][ 11]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2015.11.18-20.55.06:475][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Intro.Intro to /Game/Scenes/UEDPIE_0_Intro.Intro (0.003397s)
+[2015.11.18-20.55.06:504][ 11]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.18-20.55.06:509][ 11]LogInit: FAudioDevice initialized.
+[2015.11.18-20.55.06:548][ 11]LogWorld: Game class is 'IntroGameMode_C'
+[2015.11.18-20.55.06:550][ 11]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Intro.Intro up for play (max tick rate 0) at 2015.11.18-22.55.06
+[2015.11.18-20.55.06:550][ 11]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_Intro.Intro:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.55.06:550][ 11]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_Intro.Intro:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.55.06:550][ 11]LogWorld: Bringing up level for play took: 0.000716
+[2015.11.18-20.55.06:552][ 11]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Intro 0.38
+[2015.11.18-20.55.06:552][ 11]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/Intro.Intro:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Intro.Intro:PersistentLevel.Intro' with GeneratedClass '/Game/Scenes/Intro.Intro_C' with ClassGeneratedBy '/Game/Scenes/Intro.Intro:PersistentLevel.Intro'
+[2015.11.18-20.55.10:480][233]LogPackageName: SearchForPackageOnDisk took   0.044s to resolve MainScreen.umap.
+[2015.11.18-20.55.10:543][234]LogPackageName: SearchForPackageOnDisk took   0.047s to resolve MainScreen.umap.
+[2015.11.18-20.55.10:543][234]LogNet: Browse: /Game/Scenes/MainScreen
+[2015.11.18-20.55.10:543][234]LogLoad: LoadMap: /Game/Scenes/MainScreen
+[2015.11.18-20.55.10:568][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA84745800
+[2015.11.18-20.55.10:571][234]Cmd: MEM
+[2015.11.18-20.55.10:595][234]LogMemory: Platform Memory Stats for Windows
+[2015.11.18-20.55.10:595][234]LogMemory: Process Physical Memory: 1089.79 MB used, 1091.32 MB peak
+[2015.11.18-20.55.10:595][234]LogMemory: Process Virtual Memory: 2097.59 MB used, 2157.99 MB peak
+[2015.11.18-20.55.10:595][234]LogMemory: Physical Memory: 3969.02 MB used, 8174.70 MB total
+[2015.11.18-20.55.10:595][234]LogMemory: Virtual Memory: 2891.15 MB used, 134217728.00 MB total
+[2015.11.18-20.55.10:595][234]LogMemory: 
+[2015.11.18-20.55.10:595][234]Allocator Stats for TBB: (not implemented)
+[2015.11.18-20.55.10:613][234]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.18-20.55.10:614][234]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.18-20.55.10:619][234]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.18-22.55.10
+[2015.11.18-20.55.10:619][234]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.55.10:619][234]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.55.10:620][234]LogWorld: Bringing up level for play took: 0.004591
+[2015.11.18-20.55.10:626][234]LogScriptCore: Script call stack:
+	Function /Game/Widgets/OptionsPanel.OptionsPanel_C:Get_ShadowOnCheckBox_CheckedState_0
+
+[2015.11.18-20.55.10:626][234]LogScript:Warning: Infinite script recursion (250 calls) detected
+	OptionsPanel_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.MainMenuWidget_C_17.WidgetTree_713.OptionsPanel_135
+	Function /Game/Widgets/OptionsPanel.OptionsPanel_C:Get_ShadowOnCheckBox_CheckedState_0:0000
+[2015.11.18-20.55.10:626][234]PIE:Error: Error Infinite Loop detected in  OptionsPanel , asserted during  Get Shadow on Check Box Checked State 0 with the following  Call Stack
+[2015.11.18-20.55.10:631][234]LogScriptCore: Script call stack:
+	Function /Game/Widgets/OptionsPanel.OptionsPanel_C:Get_ShadowOnCheckBox_CheckedState_0
+
+[2015.11.18-20.55.10:631][234]LogScript:Warning: Infinite script recursion (250 calls) detected
+	OptionsPanel_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.MainMenuWidget_C_17.WidgetTree_713.OptionsPanel_135
+	Function /Game/Widgets/OptionsPanel.OptionsPanel_C:Get_ShadowOnCheckBox_CheckedState_0:0000
+[2015.11.18-20.55.10:631][234]PIE:Error: Error Infinite Loop detected in  OptionsPanel , asserted during  Get Shadow on Check Box Checked State 0 with the following  Call Stack
+[2015.11.18-20.55.10:650][235]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/Intro.Intro:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Intro.Intro:PersistentLevel.Intro' with GeneratedClass '/Game/Scenes/Intro.Intro_C' with ClassGeneratedBy '/Game/Scenes/Intro.Intro:PersistentLevel.Intro'
+[2015.11.18-20.55.10:684][235]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/Intro.Intro:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Intro.Intro:PersistentLevel.Intro' with GeneratedClass '/Game/Scenes/Intro.Intro_C' with ClassGeneratedBy '/Game/Scenes/Intro.Intro:PersistentLevel.Intro'
+[2015.11.18-20.55.10:736][235]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA84744F40
+[2015.11.18-20.55.50:093][232]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-20.55.50:181][232]BlueprintEditorCompileResults: Info [1558.99] Compile of OptionsPanel successful! [in 87 ms]
+[2015.11.18-20.56.11:730][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Scenes/Intro.Intro:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Intro.Intro:PersistentLevel.Intro' with GeneratedClass '/Game/Scenes/Intro.Intro_C' with ClassGeneratedBy '/Game/Scenes/Intro.Intro:PersistentLevel.Intro'
+[2015.11.18-20.56.11:730][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.18-20.56.11:730][ 65]PIE: New page: PIE session: Intro (Nov 19, 2015, 12:56:11 AM)
+[2015.11.18-20.56.11:730][ 65]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Intro
+[2015.11.18-20.56.11:733][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002903s)
+[2015.11.18-20.56.11:733][ 65]LogAIModule: Creating AISystem for world Intro
+[2015.11.18-20.56.11:734][ 65]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2015.11.18-20.56.11:734][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Intro.Intro to /Game/Scenes/UEDPIE_0_Intro.Intro (0.003844s)
+[2015.11.18-20.56.11:763][ 65]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.18-20.56.11:768][ 65]LogInit: FAudioDevice initialized.
+[2015.11.18-20.56.11:800][ 65]LogWorld: Game class is 'IntroGameMode_C'
+[2015.11.18-20.56.11:801][ 65]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Intro.Intro up for play (max tick rate 0) at 2015.11.18-22.56.11
+[2015.11.18-20.56.11:802][ 65]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_Intro.Intro:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.56.11:802][ 65]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_Intro.Intro:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.56.11:802][ 65]LogWorld: Bringing up level for play took: 0.000763
+[2015.11.18-20.56.11:804][ 65]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Intro -0.368
+[2015.11.18-20.56.11:804][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Scenes/Intro.Intro:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Intro.Intro:PersistentLevel.Intro' with GeneratedClass '/Game/Scenes/Intro.Intro_C' with ClassGeneratedBy '/Game/Scenes/Intro.Intro:PersistentLevel.Intro'
+[2015.11.18-20.56.15:721][357]LogPackageName: SearchForPackageOnDisk took   0.046s to resolve MainScreen.umap.
+[2015.11.18-20.56.15:778][358]LogPackageName: SearchForPackageOnDisk took   0.044s to resolve MainScreen.umap.
+[2015.11.18-20.56.15:778][358]LogNet: Browse: /Game/Scenes/MainScreen
+[2015.11.18-20.56.15:778][358]LogLoad: LoadMap: /Game/Scenes/MainScreen
+[2015.11.18-20.56.15:805][358]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA2EBD6660
+[2015.11.18-20.56.15:810][358]Cmd: MEM
+[2015.11.18-20.56.15:839][358]LogMemory: Platform Memory Stats for Windows
+[2015.11.18-20.56.15:839][358]LogMemory: Process Physical Memory: 1094.05 MB used, 1098.60 MB peak
+[2015.11.18-20.56.15:839][358]LogMemory: Process Virtual Memory: 2107.85 MB used, 2157.99 MB peak
+[2015.11.18-20.56.15:839][358]LogMemory: Physical Memory: 3962.83 MB used, 8174.70 MB total
+[2015.11.18-20.56.15:839][358]LogMemory: Virtual Memory: 2905.67 MB used, 134217728.00 MB total
+[2015.11.18-20.56.15:839][358]LogMemory: 
+[2015.11.18-20.56.15:839][358]Allocator Stats for TBB: (not implemented)
+[2015.11.18-20.56.15:888][358]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.18-20.56.15:888][358]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.18-20.56.15:892][358]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.18-22.56.15
+[2015.11.18-20.56.15:892][358]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.56.15:892][358]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.56.15:892][358]LogWorld: Bringing up level for play took: 0.002613
+[2015.11.18-20.56.29:684][354]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Scenes/Intro.Intro:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Intro.Intro:PersistentLevel.Intro' with GeneratedClass '/Game/Scenes/Intro.Intro_C' with ClassGeneratedBy '/Game/Scenes/Intro.Intro:PersistentLevel.Intro'
+[2015.11.18-20.56.29:716][354]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Scenes/Intro.Intro:PersistentLevel' has LevelScriptBlueprint '/Game/Scenes/Intro.Intro:PersistentLevel.Intro' with GeneratedClass '/Game/Scenes/Intro.Intro_C' with ClassGeneratedBy '/Game/Scenes/Intro.Intro:PersistentLevel.Intro'
+[2015.11.18-20.56.29:759][354]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA17FD5300
+[2015.11.18-20.56.33:074][617]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.18-20.56.36:072][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/OptionsPanel" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset" SILENT=true
+[2015.11.18-20.56.36:131][617]LogSavePackage: Save=47.032391ms
+[2015.11.18-20.56.36:131][617]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/OptionsPanelF75444524509FC1533349E8669D728F2.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset'
+[2015.11.18-20.56.36:133][617]LogSavePackage: Total save time: 59.506122ms
+[2015.11.18-20.56.36:133][617]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset
+[2015.11.18-20.56.36:134][617]Cmd: MAP LOAD FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Scenes/MainScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.18-20.56.36:134][617]LightingResults: New page: Lighting Build
+[2015.11.18-20.56.36:152][617]LoadErrors: New page: Loading map: MainScreen.umap
+[2015.11.18-20.56.36:152][617]MapCheck: New page: Map Check
+[2015.11.18-20.56.36:152][617]LightingResults: New page: Lighting Build
+[2015.11.18-20.56.36:176][617]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA940BFB00
+[2015.11.18-20.56.36:239][617]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.18-20.56.36:274][617]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.18-20.56.36:332][617]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.953ms to complete.
+[2015.11.18-20.56.36:332][617]LogFileHelpers: Loading map 'MainScreen' took 0.199
+[2015.11.18-20.56.58:922][ 36]BlueprintLog: New page: Compile MainMenuWidget
+[2015.11.18-20.56.59:010][ 36]BlueprintEditorCompileResults: Info [1627.82] Compile of MainMenuWidget successful! [in 87 ms]
+[2015.11.18-20.57.16:177][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.18-20.57.16:177][345]PIE: New page: PIE session: MainScreen (Nov 19, 2015, 12:57:16 AM)
+[2015.11.18-20.57.16:177][345]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.18-20.57.16:180][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002840s)
+[2015.11.18-20.57.16:181][345]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.18-20.57.16:181][345]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2015.11.18-20.57.16:181][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.003726s)
+[2015.11.18-20.57.16:211][345]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.18-20.57.16:220][345]LogInit: FAudioDevice initialized.
+[2015.11.18-20.57.16:252][345]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.18-20.57.16:255][345]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.18-22.57.16
+[2015.11.18-20.57.16:255][345]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.57.16:255][345]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-20.57.16:255][345]LogWorld: Bringing up level for play took: 0.002105
+[2015.11.18-20.57.16:258][345]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen 0.086
+[2015.11.18-20.57.33:746][ 69]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA9453BE20
+[2015.11.18-20.58.25:884][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MainMenuWidget" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuWidget.uasset" SILENT=true
+[2015.11.18-20.58.25:921][650]LogSavePackage: Save=27.470703ms
+[2015.11.18-20.58.25:921][650]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/MainMenuWidgetB87B7E03457E074D27A3859FF77CF213.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuWidget.uasset'
+[2015.11.18-20.58.25:922][650]LogSavePackage: Total save time: 36.680732ms
+[2015.11.18-20.58.25:922][650]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/MainMenuWidget.uasset
+[2015.11.18-20.58.25:928][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/OptionsPanel" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset" SILENT=true
+[2015.11.18-20.58.25:958][650]LogSavePackage: Save=21.516228ms
+[2015.11.18-20.58.25:958][650]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/OptionsPanel258CB10F4CB2BAB76A5FF499D7301466.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset'
+[2015.11.18-20.58.25:959][650]LogSavePackage: Total save time: 30.403867ms
+[2015.11.18-20.58.25:959][650]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset
+[2015.11.18-20.58.55:254][828]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-20.58.55:351][828]BlueprintEditorCompileResults: Info [1744.16] Compile of OptionsPanel successful! [in 96 ms]
+[2015.11.18-20.59.29:995][632]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-20.59.30:607][695]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-20.59.31:081][744]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-20.59.31:091][745]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.00.04:036][324]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.00.04:322][349]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.00.05:652][496]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.00.05:662][497]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.00.16:434][674]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.00.39:993][256]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-21.00.40:075][256]BlueprintEditorCompileResults: Info [1848.88] Compile of OptionsPanel successful! [in 81 ms]
+[2015.11.18-21.00.40:935][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/OptionsPanel" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset" SILENT=true
+[2015.11.18-21.00.40:966][341]LogSavePackage: Save=21.972639ms
+[2015.11.18-21.00.40:966][341]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/OptionsPanelA273FAE14D3A2B214E84AB83471D96FB.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset'
+[2015.11.18-21.00.40:968][341]LogSavePackage: Total save time: 31.361669ms
+[2015.11.18-21.00.40:968][341]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset
+[2015.11.18-21.01.37:499][389]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.01.41:683][839]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.01.43:683][ 57]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.01.45:170][213]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.01.45:883][290]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.01.45:893][291]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.01.47:484][463]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.01.47:849][495]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.01.58:747][688]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.01.59:350][750]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.01.59:803][799]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.01.59:812][800]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.02.49:134][993]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-21.02.49:218][993]BlueprintEditorCompileResults: Info [1978.02] Compile of OptionsPanel successful! [in 82 ms]
+[2015.11.18-21.02.56:645][793]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.02.58:222][955]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.02.58:797][ 18]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.02.58:806][ 19]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.03.21:073][348]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-21.03.21:156][348]BlueprintEditorCompileResults: Info [2009.96] Compile of OptionsPanel successful! [in 82 ms]
+[2015.11.18-21.03.30:297][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.18-21.03.30:297][308]PIE: New page: PIE session: MainScreen (Nov 19, 2015, 1:03:30 AM)
+[2015.11.18-21.03.30:297][308]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.18-21.03.30:300][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002575s)
+[2015.11.18-21.03.30:301][308]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.18-21.03.30:301][308]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2015.11.18-21.03.30:301][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.003566s)
+[2015.11.18-21.03.30:340][308]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.18-21.03.30:345][308]LogInit: FAudioDevice initialized.
+[2015.11.18-21.03.30:410][308]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.18-21.03.30:413][308]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.18-23.03.30
+[2015.11.18-21.03.30:413][308]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-21.03.30:413][308]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-21.03.30:413][308]LogWorld: Bringing up level for play took: 0.002122
+[2015.11.18-21.03.30:425][308]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen 0.252
+[2015.11.18-21.03.30:439][309]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:4828).
+[2015.11.18-21.03.37:412][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA35559EE0
+[2015.11.18-21.03.53:675][612]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-21.03.53:797][612]BlueprintEditorCompileResults: Info [2042.60] Compile of OptionsPanel successful! [in 122 ms]
+[2015.11.18-21.03.54:511][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.18-21.03.54:511][673]PIE: New page: PIE session: MainScreen (Nov 19, 2015, 1:03:54 AM)
+[2015.11.18-21.03.54:511][673]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.18-21.03.54:516][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004746s)
+[2015.11.18-21.03.54:517][673]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.18-21.03.54:517][673]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2015.11.18-21.03.54:517][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.005730s)
+[2015.11.18-21.03.54:546][673]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.18-21.03.54:551][673]LogInit: FAudioDevice initialized.
+[2015.11.18-21.03.54:612][673]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.18-21.03.54:615][673]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.18-23.03.54
+[2015.11.18-21.03.54:615][673]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-21.03.54:616][673]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-21.03.54:616][673]LogWorld: Bringing up level for play took: 0.002673
+[2015.11.18-21.03.54:634][673]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen 0.461
+[2015.11.18-21.04.00:415][139]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA4A1B94E0
+[2015.11.18-21.06.45:194][675]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.06.46:587][812]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.06.47:258][881]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.06.47:266][882]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.07.28:386][269]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.07.30:112][456]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.07.31:258][581]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.07.31:267][582]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'OptionsPanel', cached variable property's owner is '/Game/Widgets/OptionsPanel.SKEL_OptionsPanel_C'
+[2015.11.18-21.07.57:134][357]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-21.07.57:253][357]BlueprintEditorCompileResults: Info [2286.06] Compile of OptionsPanel successful! [in 119 ms]
+[2015.11.18-21.08.00:188][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/OptionsPanel" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset" SILENT=true
+[2015.11.18-21.08.00:226][670]LogSavePackage: Save=26.527090ms
+[2015.11.18-21.08.00:226][670]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/OptionsPanelB3C26CD0463937D7ED5788B9CD534068.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset'
+[2015.11.18-21.08.00:228][670]LogSavePackage: Total save time: 39.828822ms
+[2015.11.18-21.08.00:228][670]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset
+[2015.11.18-21.08.06:579][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.18-21.08.06:579][359]PIE: New page: PIE session: MainScreen (Nov 19, 2015, 1:08:06 AM)
+[2015.11.18-21.08.06:579][359]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.18-21.08.06:582][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002628s)
+[2015.11.18-21.08.06:582][359]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.18-21.08.06:582][359]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2015.11.18-21.08.06:582][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.003547s)
+[2015.11.18-21.08.06:612][359]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.18-21.08.06:619][359]LogInit: FAudioDevice initialized.
+[2015.11.18-21.08.06:685][359]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.18-21.08.06:688][359]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.18-23.08.06
+[2015.11.18-21.08.06:688][359]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-21.08.06:688][359]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-21.08.06:688][359]LogWorld: Bringing up level for play took: 0.002134
+[2015.11.18-21.08.06:699][359]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen 0.527
+[2015.11.18-21.08.19:950][657]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA1025BCE0
+[2015.11.18-21.08.46:279][360]LogEditorTransaction: Undo Move Node
+[2015.11.18-21.08.46:651][381]LogEditorTransaction: Undo Move Nodes
+[2015.11.18-21.08.51:503][900]BlueprintLog: New page: Compile OptionsPanel
+[2015.11.18-21.08.51:608][900]BlueprintEditorCompileResults: Info [2340.41] Compile of OptionsPanel successful! [in 105 ms]
+[2015.11.18-21.08.53:675][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.18-21.08.53:675][127]PIE: New page: PIE session: MainScreen (Nov 19, 2015, 1:08:53 AM)
+[2015.11.18-21.08.53:675][127]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_MainScreen
+[2015.11.18-21.08.53:678][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002419s)
+[2015.11.18-21.08.53:678][127]LogAIModule: Creating AISystem for world MainScreen
+[2015.11.18-21.08.53:678][127]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2015.11.18-21.08.53:679][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/MainScreen.MainScreen to /Game/Scenes/UEDPIE_0_MainScreen.MainScreen (0.003293s)
+[2015.11.18-21.08.53:708][127]LogInit: XAudio2 using 'Speakers (2- G510 Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.18-21.08.53:715][127]LogInit: FAudioDevice initialized.
+[2015.11.18-21.08.53:784][127]LogWorld: Game class is 'MainScreenGameMode_C'
+[2015.11.18-21.08.53:787][127]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_MainScreen.MainScreen up for play (max tick rate 0) at 2015.11.18-23.08.53
+[2015.11.18-21.08.53:787][127]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-21.08.53:787][127]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_MainScreen.MainScreen:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.18-21.08.53:787][127]LogWorld: Bringing up level for play took: 0.001980
+[2015.11.18-21.08.53:797][127]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_MainScreen -0.376
+[2015.11.18-21.12.26:826][338]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA0F49D940
+[2015.11.18-21.12.38:049][ 88]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:17470).
+[2015.11.18-21.12.44:138][663]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:17484).
+[2015.11.18-21.13.14:567][377]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Scenes/MainScreen' took 0.027
+[2015.11.18-21.13.14:572][377]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/OptionsPanel] ([1] browsable assets)...
+[2015.11.18-21.13.14:572][377]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/OptionsPanel]
+[2015.11.18-21.13.14:572][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/OptionsPanel" FILE="D:/EpidemicGameProject/Epidemic_Source/Saved/Autosaves/Game/Widgets/OptionsPanel_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.11.18-21.13.14:615][377]LogSavePackage: Save=28.743643ms
+[2015.11.18-21.13.14:615][377]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/OptionsPanel_Auto234FC82834A6750091A229CADB3265B2B.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Saved/Autosaves/Game/Widgets/OptionsPanel_Auto2.uasset'
+[2015.11.18-21.13.14:616][377]LogSavePackage: Total save time: 42.742670ms
+[2015.11.18-21.13.14:616][377]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Saved/Autosaves/Game/Widgets/OptionsPanel_Auto2.uasset
+[2015.11.18-21.13.14:616][377]LogFileHelpers: Auto-saving content packages took 0.048
+[2015.11.18-21.16.17:667][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/OptionsPanel" FILE="D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset" SILENT=true
+[2015.11.18-21.16.17:707][746]LogSavePackage: Save=25.752218ms
+[2015.11.18-21.16.17:707][746]LogSavePackage: Moving 'D:/EpidemicGameProject/Epidemic_Source/Saved/OptionsPanel9ED4496A44692781EE6FE3806F8FC51A.tmp' to 'D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset'
+[2015.11.18-21.16.17:710][746]LogSavePackage: Total save time: 37.733015ms
+[2015.11.18-21.16.17:710][746]LogSavePackage:Warning: Finished SavePackage D:/EpidemicGameProject/Epidemic_Source/Content/Widgets/OptionsPanel.uasset
+[2015.11.18-21.16.18:072][746]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.18-21.16.18:375][747]Cmd: QUIT_EDITOR
+[2015.11.18-21.16.19:306][747]LogExit: Preparing to exit.
+[2015.11.18-21.16.19:834][747]LogExit: Editor shut down
+[2015.11.18-21.16.19:836][747]LogExit: Transaction tracking system shut down
+[2015.11.18-21.16.19:838][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA4A65B880
+[2015.11.18-21.16.19:842][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA4A47D800
+[2015.11.18-21.16.19:842][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA6055D3A0
+[2015.11.18-21.16.19:842][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA6055D1C0
+[2015.11.18-21.16.19:842][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA49A93060
+[2015.11.18-21.16.19:845][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA6049F600
+[2015.11.18-21.16.19:849][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA7A4B71A0
+[2015.11.18-21.16.19:852][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA7A4B6CA0
+[2015.11.18-21.16.19:855][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA016CD800
+[2015.11.18-21.16.19:857][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA0652B9C0
+[2015.11.18-21.16.19:860][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA0652B4C0
+[2015.11.18-21.16.19:863][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA83DE2660
+[2015.11.18-21.16.20:171][747]LogExit: Object subsystem successfully closed.
+[2015.11.18-21.16.20:203][747]LogD3D11RHI: Shutdown
+[2015.11.18-21.16.20:203][747]LogD3D11RHI: CleanupD3DDevice
+[2015.11.18-21.16.20:264][747]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.18-21.16.20:302][747]LogModuleManager: Shutting down and abandoning module SequencerWidgets (199)
+[2015.11.18-21.16.20:302][747]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.11.18-21.16.20:302][747]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.11.18-21.16.20:302][747]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.11.18-21.16.20:302][747]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.11.18-21.16.20:302][747]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.11.18-21.16.20:302][747]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.11.18-21.16.20:310][747]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.11.18-21.16.20:310][747]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.11.18-21.16.20:310][747]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.11.18-21.16.20:311][747]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.18-21.16.20:311][747]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.18-21.16.20:313][747]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.18-21.16.20:313][747]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.18-21.16.20:313][747]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.18-21.16.20:313][747]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.18-21.16.20:313][747]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.18-21.16.20:313][747]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.18-21.16.20:313][747]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.18-21.16.20:313][747]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.18-21.16.20:313][747]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.18-21.16.20:313][747]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.18-21.16.20:314][747]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.18-21.16.20:314][747]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.18-21.16.20:316][747]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.18-21.16.20:316][747]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.18-21.16.20:316][747]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.18-21.16.20:316][747]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.18-21.16.20:604][747]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.18-21.16.20:604][747]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.18-21.16.20:604][747]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.18-21.16.20:604][747]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.18-21.16.20:605][747]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.18-21.16.20:605][747]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.18-21.16.20:605][747]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.18-21.16.20:605][747]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.18-21.16.20:606][747]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.18-21.16.20:606][747]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.18-21.16.20:606][747]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.18-21.16.20:607][747]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.18-21.16.20:607][747]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.18-21.16.20:607][747]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.18-21.16.20:607][747]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.18-21.16.20:607][747]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.18-21.16.20:607][747]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.18-21.16.20:607][747]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.18-21.16.20:607][747]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.18-21.16.20:607][747]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.18-21.16.20:608][747]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.18-21.16.20:608][747]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.18-21.16.20:608][747]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.18-21.16.20:608][747]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.18-21.16.20:609][747]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.18-21.16.20:609][747]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.18-21.16.20:609][747]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.18-21.16.20:610][747]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.18-21.16.20:610][747]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.18-21.16.20:612][747]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.18-21.16.20:612][747]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.18-21.16.20:612][747]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.18-21.16.20:612][747]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.18-21.16.20:613][747]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.18-21.16.20:613][747]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.18-21.16.20:613][747]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.18-21.16.20:616][747]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.18-21.16.20:616][747]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.18-21.16.20:616][747]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.18-21.16.20:616][747]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.18-21.16.20:616][747]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.18-21.16.20:617][747]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.18-21.16.20:617][747]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.18-21.16.20:618][747]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.18-21.16.20:618][747]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.18-21.16.20:618][747]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.18-21.16.20:618][747]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.18-21.16.20:618][747]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.18-21.16.20:618][747]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.18-21.16.20:618][747]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.18-21.16.20:750][747]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.18-21.16.20:753][747]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.18-21.16.20:753][747]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.18-21.16.20:753][747]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.18-21.16.20:753][747]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.18-21.16.20:753][747]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.18-21.16.20:753][747]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.18-21.16.20:753][747]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.18-21.16.20:768][747]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.18-21.16.20:769][747]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.18-21.16.20:769][747]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.18-21.16.20:769][747]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.18-21.16.20:769][747]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.18-21.16.20:770][747]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.18-21.16.20:770][747]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.18-21.16.20:770][747]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.18-21.16.20:770][747]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.18-21.16.20:770][747]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.18-21.16.20:771][747]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.18-21.16.20:771][747]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.18-21.16.20:771][747]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.18-21.16.20:771][747]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.18-21.16.20:773][747]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.18-21.16.20:773][747]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.18-21.16.20:773][747]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.18-21.16.20:773][747]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.18-21.16.20:773][747]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.18-21.16.20:773][747]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.18-21.16.20:773][747]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.18-21.16.20:774][747]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.18-21.16.20:774][747]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.18-21.16.20:774][747]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.18-21.16.20:775][747]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.18-21.16.20:780][747]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.18-21.16.20:911][747]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.18-21.16.20:912][747]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.18-21.16.20:913][747]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.18-21.16.21:014][747]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.18-21.16.21:014][747]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.18-21.16.21:014][747]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.18-21.16.21:017][747]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.18-21.16.21:017][747]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.18-21.16.21:017][747]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.18-21.16.21:017][747]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.18-21.16.21:017][747]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.18-21.16.21:017][747]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.18-21.16.21:018][747]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.18-21.16.21:018][747]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.18-21.16.21:019][747]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.18-21.16.21:020][747]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.18-21.16.21:020][747]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.18-21.16.21:020][747]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.18-21.16.21:022][747]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.18-21.16.21:022][747]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.18-21.16.21:022][747]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.18-21.16.21:022][747]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.18-21.16.21:025][747]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.18-21.16.21:025][747]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.18-21.16.21:025][747]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.18-21.16.21:025][747]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.18-21.16.21:025][747]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.18-21.16.21:025][747]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.18-21.16.21:025][747]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.18-21.16.21:025][747]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.18-21.16.21:025][747]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.18-21.16.21:026][747]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.18-21.16.21:027][747]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.18-21.16.21:070][747]LogDerivedDataCache: Shutdown
+[2015.11.18-21.16.21:070][747]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.18-21.16.21:070][747]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.18-21.16.21:070][747]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.18-21.16.21:072][747]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.18-21.16.21:073][747]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.18-21.16.21:074][747]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.18-21.16.21:074][747]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.18-21.16.21:075][747]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.18-21.16.21:075][747]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.18-21.16.21:076][747]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.18-21.16.21:076][747]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.18-21.16.21:076][747]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.18-21.16.21:076][747]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.18-21.16.21:076][747]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.18-21.16.21:076][747]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.18-21.16.21:076][747]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.18-21.16.21:076][747]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.18-21.16.21:076][747]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.18-21.16.21:076][747]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.18-21.16.22:077][747]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.18-21.16.22:082][747]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.18-21.16.22:082][747]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.18-21.16.22:083][747]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.18-21.16.22:083][747]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.18-21.16.22:083][747]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.18-21.16.22:098][747]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.18-21.16.22:099][747]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.18-21.16.22:099][747]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.18-21.16.22:099][747]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.18-21.16.22:099][747]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.18-21.16.22:099][747]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.18-21.16.22:099][747]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.18-21.16.22:100][747]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.18-21.16.22:100][747]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.18-21.16.22:100][747]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.18-21.16.22:101][747]LogExit: Exiting.
+[2015.11.18-21.16.22:107][747]Log file closed, 11/18/15 23:16:22

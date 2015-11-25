@@ -1,0 +1,1 @@
+../../../Epidemic_Source/Epidemic_Source.uproject  /Game/Scenes/test -Messaging -SessionId=2678DD8542FE4C516ADBC58F1DAFCD7C -SessionOwner=Ferdi -SessionName='Play On Device' -iterative
